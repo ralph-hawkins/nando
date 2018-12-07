@@ -1,0 +1,79 @@
+// global styles for <a> and <p> tags
+$govuk-global-styles: true;
+
+// Import GOV.UK Frontend
+@import "node_modules/govuk-frontend/all";
+
+// Patterns that aren't in Frontend
+@import "patterns/check-your-answers";
+@import "patterns/step-by-step-navigation";
+@import "patterns/task-list";
+@import "patterns/related-items";
+
+// Components that aren't in Frontend
+@import "components/cookie-banner";
+
+// Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
+
+dl, dt, dd  {
+  display: inline-block;
+  margin: 0px !important;
+  line-height: 0px;
+}
+
+dt {
+  min-width: 120px;
+}
+
+dd {
+  min-width: 200px;
+}
+
+
+.no-break {
+  white-space: nowrap;
+}
+
+.bodies {
+  list-style: none;
+  overflow: hidden;
+  li { 
+    border-bottom: 1px solid $govuk-border-colour;
+    table {
+      width: 100%;
+      text-align: left;
+    }
+    a {
+      text-decoration: none;
+        &:hover {
+        color: $govuk-link-hover-colour;
+      }
+    }
+  }
+}
+
+
+a {
+  &:hover {
+    color: $govuk-link-hover-colour;
+  }
+  &:visited {
+    color: $govuk-link-colour;
+  }
+}
+
+.legislation {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 50px !important;
+  th, td {
+    width: 33%;
+    border-bottom: 1px solid black;
+    text-align: left;
+    vertical-align: top;
+    padding: 10px 10px 10px 0;
+    .govuk-list-bullets {
+      margin: 0px;
+    }
+  }
+}
