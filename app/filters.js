@@ -78,7 +78,7 @@ module.exports = function (env) {
             doc.body.contact.phoneNumber,
             doc.body.contact.address,
           ].concat(doc.accs.flatMap(acc => acc.rows.flatMap(row => row.products.concat(row.procedures))))
-          // TODO Add acc.name to searchable???
+          .concat(doc.accs.map(acc => acc.name))
           return searchables.some(searchable => searchable && 
             searchable.toLowerCase().indexOf(term.toLowerCase()) !== -1
           )
