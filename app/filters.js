@@ -38,6 +38,12 @@ module.exports = function (env) {
 
   ------------------------------------------------------------------ */
 
+  filters.withId = function (things, id) {
+    return things.find(function (thing) {
+      return thing.id === id;
+    });
+  };
+  
   /* ------------------------------------------------------------------
     keep the following line to return your filters to the app
   ------------------------------------------------------------------ */

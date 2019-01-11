@@ -17,28 +17,26 @@
 
 
 {% block content %}
-
-  {% set body = data.doc.body %}
-  {% set accs = data.doc.accs %}
+  {% set doc = data.docs | withId(data.id) %}
 
   <div class="govuk-grid-row">
     <div class="govuk-grid-column-two-thirds">
       <h1 class="govuk-heading-xl">
-        {{body.name}}
+        {{doc.body.name}}
       </h1>
       <p class='govuk-body-l'>
-        Body number: {{body.number}}
+        Body number: {{doc.body.number}}
       </p>
       <dl class=''>
         <dt class="govuk-body-s">Last updated:</dt>
         <dd class="govuk-body-s">
-          {{body.lastUpdated}}
+          {{doc.body.lastUpdated}}
         </dd>
       </dl>
       <dl>
         <dt class="govuk-body-s">Authorised by:</dt>
         <dd class="govuk-body-s govuk-!-margin-bottom-9">
-          {% for authoriser in body.authorisedBy %}
+          {% for authoriser in doc.body.authorisedBy %}
             <a href='#'>{{authoriser}}</a>
           {% endfor %}
         </dd>
@@ -49,14 +47,14 @@
       </h3>
       <ul class='govuk-list'>
         <li class='govuk-!-padding-bottom-2'>
-          {{body.contact.email}}
+          {{doc.body.contact.email}}
         </li>
         <li class='govuk-!-padding-bottom-2'>
-          {{body.contact.phoneNumber}}
+          {{doc.body.contact.phoneNumber}}
         </li>
         {% set linebreak = joiner("<br />") %}
         <li class='govuk-!-padding-bottom-4'>
-          {{ body.contact.address | escape | nl2br }}
+          {{ doc.body.contact.address | escape | nl2br }}
         </li>
       </ul>
 
@@ -65,108 +63,41 @@
       <h2 class='govuk-heading-m govuk-!-margin-bottom-4'>
         Accreditations
       </h2>
-      <h2 class='govuk-heading-s'>
-        {{accs.name}}
-      </h2>
-      <table class='govuk-body-s legislation'>
-        <thead>
-          <tr>
-            <th>
-              Procedures
-            </th>
-            <th>
-              Products
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          {% for acc in accs.rows %}
+      {% for acc in doc.accs %}
+        <h2 class='govuk-heading-s'>
+          {{acc.name}}
+        </h2>
+        <table class='govuk-body-s legislation'>
+          <thead>
             <tr>
-              <td>
-                 {% for procedure in acc.procedures %}
-                    {{procedure}}
-                  {% endfor %}
-              </td>
-              <td>
-                <ul class='govuk-list-bullets'>
-                  {% for product in acc.products %}
-                    <li>{{product}}</li>
-                  {% endfor %}
-                </ul>
-              </td>
+              <th>
+                Procedures
+              </th>
+              <th>
+                Products
+              </th>
             </tr>
-          {% endfor %}
-        </tbody>
-      </table>
-
-      <h2 class='govuk-heading-s'>
-        Medical devices
-      </h2>
-      <table class='govuk-body-s legislation'>
-        <thead>
-          <tr>
-            <th>
-              Procedures
-            </th>
-            <th>
-              Products
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>
-              Declaration of conformity (full quality assurance system) and Declaration of conformity (production quality assurance)
-            </td>
-            <td>
-              <ul class='govuk-list-bullets'>
-                <li>General non-active, non-implantable medical devices</li>
-                <li>Non-active devices for anaesthesia, emergency and intensive care</li>
-                <li>Non-active devices for injection, infusion, transfusion and dialysis</li>
-                <li>Non-active orthopaedic and rehabilitation devices</li>
-                <li>Non-active medical devices with measuring function</li>
-                <li>Non-active ophthalmologic devices</li>
-                <li>Non-active instruments</li>
-                <li>Contraceptive medical devices</li>
-                <li>Non-active medical devices for disinfecting, cleaning, rinsing</li>
-                <li>Non-active devices for in vitro fertilisation (IVF) and assisted reproductive technologies (ART)</li>
-                <li>Non-active medical devices for ingestion</li>
-                <li>Non-active cardiovascular implants</li>
-                <li>Non-active orthopaedic implants</li>
-                <li>Non-active functional implants</li>
-                <li>Non-active soft tissue implants (excluding breast implants)</li>
-                <li>Bandages and wound dressings</li>
-                <li>Suture material and clamps</li>
-                <li>Other medical devices for wound care</li>
-                <li>Non-active dental equipment and instruments</li>
-                <li>Dental materials</li>
-                <li>Dental implants</li>
-                <li>Devices for extra-corporal circulation, infusion and haemopheresis</li>
-                <li>Respiratory devices, devices including hyperbaric chambers for oxygen therapy, inhalation anaesthesia</li>
-                <li>Devices for stimulation or inhibition</li>
-                <li>Active surgical devices</li>
-                <li>Active ophthalmologic devices</li>
-                <li>Active dental devices</li>
-                <li>Active devices for disinfection and sterilisation</li>
-                <li>Active rehabilitation devices and active prostheses</li>
-                <li>Active devices for patient positioning and transport</li>
-                <li>Active devices for in vitro fertilisation (IVF) and assisted reproductive therapy (ART)</li>
-                <li>Software</li>
-                <li>Medical gas supply systems and parts thereof</li>
-                <li>Imaging devices utilising ionizing radiation</li>
-                <li>Imaging devices utilising non-ionizing radiation</li>
-                <li>Monitoring devices of non-vital physiological parameters</li>
-                <li>Monitoring devices of vital physiological parameters</li>
-                <li>Devices utilising ionizing radiation</li>
-                <li>Devices utilising non-ionizing radiation</li>
-                <li>Devices for hyperthermia / hypothermia</li>
-                <li>Devices for (extracorporal) shock-wave therapy (lithotripsy)</li>
-              </ul>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-
+          </thead>
+          <tbody>
+            {% for row in acc.rows %}
+              <tr>
+                <td>
+                  {% for procedure in row.procedures %}
+                      {{procedure}}
+                    {% endfor %}
+                </td>
+                <td>
+                  <ul class='govuk-list-bullets'>
+                    {% for product in row.products %}
+                      <li>{{product}}</li>
+                    {% endfor %}
+                  </ul>
+                </td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+        {% endfor %}
     </div>
   </div>
 
