@@ -18,16 +18,16 @@
 </div>
 {% endmacro %}
 
-{% macro bodies(url, bodyName, number, department) %}
+{% macro docResult(doc) %}
   <li class="body">
     <h3>
-      <a href="{{ url }}">
-        {{ bodyName }}
+      <a href="body?id={{doc.id}}">
+        {{ doc.body.name }}
       </a>
     </h3>
     <table class='govuk-body-xs'>
       <tbody>
-        <td>{{ number }}</td>
+        <td>{{ doc.body.number }}</td>
       </tbody>
     </table>
   </li>
