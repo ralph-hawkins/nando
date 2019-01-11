@@ -38,10 +38,22 @@ module.exports = function (env) {
 
   ------------------------------------------------------------------ */
 
-  filters.withId = function (things, id) {
+  filters.withId = function(things, id) {
     return things.find(function (thing) {
       return thing.id === id;
     });
+  };
+
+  filters.includes = function(things, it) {
+    return things.includes(it);
+  };
+
+  filters.normaliseMultiQueryParam = function(queryParam) {
+    if (queryParam instanceof Array)
+      return queryParam
+    if (typeof queryParam === "string")
+      return [queryParam]
+    return []
   };
   
   /* ------------------------------------------------------------------

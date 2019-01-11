@@ -52,7 +52,8 @@
             text: "Search"
           },
           id: "search",
-          name: "search"
+          name: "search",
+          value: data.search
         }) }}
 
       {% from "includes/macro.html" import selectOptions %}
@@ -60,6 +61,7 @@
         selectOptions({
           label: "Legislation",
           name: "legislation",
+          checked: (data.legislation | normaliseMultiQueryParam),
           options: [
             "Personal protective equipment",
             "Active implantable medical devices",
@@ -93,6 +95,12 @@
         })
       }}
     </form>
+    <script type="text/javascript">
+      var form = document.querySelector('form#search')
+      document.querySelectorAll('input[name="legislation"]').forEach(function(element) {
+        element.addEventListener('input', function() { form.submit() })
+      })
+    </script>
 
     </div>
     <div class="govuk-grid-column-two-third">
