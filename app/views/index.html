@@ -105,8 +105,9 @@
     </div>
     <div class="govuk-grid-column-two-third">
       <ul class='bodies'>
+        {% set searchResults = data.docs | searchAndFilter(data.search, (data.legislation | normaliseMultiQueryParam)) %}
         {% from "includes/macro.html" import docResult %}
-        {% for doc in data.docs %} 
+        {% for doc in searchResults %} 
           {{ docResult(doc) }}
         {% endfor %}
       </ul>

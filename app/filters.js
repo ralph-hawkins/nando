@@ -56,6 +56,25 @@ module.exports = function (env) {
     return []
   };
   
+  filters.searchAndFilter = function(docs, searchTerms, legislationFilter) {
+    return docs.filter(doc => {
+      if (legislationFilter.length !== 0) {
+        const matchesFilter = doc.accs.some(acc => 
+          legislationFilter.includes(acc.name)
+        )
+        if (matchesFilter) {
+          return true
+        }
+        return false
+      }
+      
+      // if (searchTerms.length !== 0) {
+      // }
+
+      return true
+    })
+  }
+
   /* ------------------------------------------------------------------
     keep the following line to return your filters to the app
   ------------------------------------------------------------------ */
