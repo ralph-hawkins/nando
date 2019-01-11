@@ -18,24 +18,57 @@
 
 {% block content %}
 
+  {% set body = {
+    number: "0846",
+    name: "4ward Testing Limited",
+    lastUpdated: "1 April 2019",
+    authorisedBy: ["BESI", "MHCLG", "MHRA"],
+    contact: {
+      email: "info@4wardtesting.co.uk",
+      phoneNumber: "01798 342240",
+      address: "5 Hampers Common Industrial Estate\nPetworth\nWest Sussex\nGU28 9NR"
+    }
+  } %}
+
+  {% set accs = {
+    name: "Personal protective equipment",
+    rows: [ {
+      products: [
+        "Equipment providing eye protection",
+        "Equipment providing face protection",
+        "Equipment providing general body protection (clothing)",
+        "Equipment providing hand and arm protection",
+        "Equipment providing head protection",
+        "Equipment providing hearing protection",
+        "Equipment providing respiratory protection",
+        "Protective equipment against drowning and buoyancy aids",
+        "Protective equipment against falls from a height"
+      ],
+      procedures: ["System for ensuring EC quality of production by means of monitoring"]
+    }
+    ]
+  } %}
+
   <div class="govuk-grid-row">
     <div class="govuk-grid-column-two-thirds">
       <h1 class="govuk-heading-xl">
-        4ward Testing Limited
+        {{body.name}}
       </h1>
       <p class='govuk-body-l'>
-        Body number: 0846
+        Body number: {{body.number}}
       </p>
       <dl class=''>
         <dt class="govuk-body-s">Last updated:</dt>
         <dd class="govuk-body-s">
-          1 April 2019
+          {{body.lastUpdated}}
         </dd>
       </dl>
       <dl>
         <dt class="govuk-body-s">Authorised by:</dt>
         <dd class="govuk-body-s govuk-!-margin-bottom-9">
-          <a href=''>BESI</a>, <a href=''>MHCLG</a> and <a href=''>MHRA</a>
+          {% for authoriser in body.authorisedBy %}
+            <a href='#'>{{authoriser}}</a>
+          {% endfor %}
         </dd>
       </dl>
 
@@ -44,13 +77,14 @@
       </h3>
       <ul class='govuk-list'>
         <li class='govuk-!-padding-bottom-2'>
-          info@4wardtesting.co.uk
+          {{body.contact.email}}
         </li>
         <li class='govuk-!-padding-bottom-2'>
-          01798 342240
+          {{body.contact.phoneNumber}}
         </li>
+        {% set linebreak = joiner("<br />") %}
         <li class='govuk-!-padding-bottom-4'>
-          5 Hampers Common Industrial Estate<br> Petworth<br> West Sussex<br> GU28 9NR
+          {{ body.contact.address | escape | nl2br }}
         </li>
       </ul>
 
@@ -60,7 +94,7 @@
         Accreditations
       </h2>
       <h2 class='govuk-heading-s'>
-        Personal protective equipment
+        {{accs.name}}
       </h2>
       <table class='govuk-body-s legislation'>
         <thead>
@@ -74,24 +108,22 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>
-              System for ensuring EC quality of production by means of monitoring
-            </td>
-            <td>
-              <ul class='govuk-list-bullets'>
-                <li>Equipment providing eye protection</li>
-                <li>Equipment providing face protection</li>
-                <li>Equipment providing general body protection (clothing)</li>
-                <li>Equipment providing hand and arm protection</li>
-                <li>Equipment providing head protection</li>
-                <li>Equipment providing hearing protection</li>
-                <li>Equipment providing respiratory protection</li>
-                <li>Protective equipment against drowning and buoyancy aids</li>
-                <li>Protective equipment against falls from a height</li>
-              </ul>
-            </td>
-          </tr>
+          {% for acc in accs.rows %}
+            <tr>
+              <td>
+                 {% for procedure in acc.procedures %}
+                    {{procedure}}
+                  {% endfor %}
+              </td>
+              <td>
+                <ul class='govuk-list-bullets'>
+                  {% for product in acc.products %}
+                    <li>{{product}}</li>
+                  {% endfor %}
+                </ul>
+              </td>
+            </tr>
+          {% endfor %}
         </tbody>
       </table>
 
