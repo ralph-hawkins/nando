@@ -57,20 +57,40 @@ module.exports = function (env) {
   };
   
   filters.searchAndFilter = function(docs, searchTerms, legislationFilter) {
+    const filteringOn = legislationFilter && legislationFilter.length !== 0
+    const searchingOn = searchTerms && searchTerms.length !== 0
     return docs.filter(doc => {
-      if (legislationFilter.length !== 0) {
+      if (filteringOn) {
         const matchesFilter = doc.accs.some(acc => 
           legislationFilter.includes(acc.name)
         )
         if (matchesFilter) {
           return true
         }
-        return false
       }
       
-      // if (searchTerms.length !== 0) {
-      // }
-
+      if (searchingOn) {
+        const match = searchTerms.trim().split(' ').some(term => {
+          const searchables = [
+            doc.body.number,
+            doc.body.name,
+            doc.body.contact.email,
+            doc.body.contact.phoneNumber,
+            doc.body.contact.address,
+          ].concat(doc.accs.flatMap(acc => acc.rows.flatMap(row => row.products.concat(row.procedures))))
+          // TODO Add acc.name to searchable???
+          return searchables.some(searchable => searchable && 
+            searchable.toLowerCase().indexOf(term.toLowerCase()) !== -1
+          )
+        })
+        if (match) {
+          return true
+        }
+      }
+      if (filteringOn || searchingOn) {
+        // If we reached this far, then the doc doesn't match the search nor the filter
+        return false
+      }
       return true
     })
   }

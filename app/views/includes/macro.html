@@ -7,12 +7,14 @@
       </h1>
     </legend>
     {% for option in config.options %}
-    <div class="govuk-checkboxes__item">
-      <input class="govuk-checkboxes__input" id="{{loop.index}}" name="legislation" type="checkbox" value="{{option}}" {% if config.checked | includes(option) %}checked{% endif %}>
-      <label class="govuk-label govuk-checkboxes__label" for="{{loop.index}}">
-        {{ option }}
-      </label>
-    </div>
+      {% if option == "Pyrotechnic articles" %}
+      {% endif %}
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="{{loop.index}}" name="legislation" type="checkbox" value="{{option}}" {% if config.checked | includes(option) %}checked{% endif %}>
+        <label class="govuk-label govuk-checkboxes__label" for="{{loop.index}}">
+          {{ option }}
+        </label>
+      </div>
     {% endfor %}
   </fieldset>
 </div>
