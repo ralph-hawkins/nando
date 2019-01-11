@@ -46,139 +46,53 @@
     <div class="govuk-grid-column-one-third">
 
       {% from "input/macro.njk" import govukInput %}
-
-      {{ govukInput({
-        label: {
-          text: "Search"
-        },
-        id: "search",
-        name: "search"
-      }) }}
+      <form id="search" method="get" role="search">
+        {{ govukInput({
+          label: {
+            text: "Search"
+          },
+          id: "search",
+          name: "search"
+        }) }}
 
       {% from "includes/macro.html" import selectOptions %}
-        {{
-            selectOptions({
-                options: [
-                  {
-                    text: "Personal protective equipment",
-                    value: "#"
-                  },
-                  {
-                    text: "Active implantable medical devices",
-                    value: "#"
-                  },
-                  {
-                    text: "Hot-water boilers",
-                    value: "#"
-                  },
-                  {
-                    text: "Medical devices",
-                    value: "#"
-                  },
-                  {
-                    text: "Recreational craft",
-                    value: "#"
-                  },
-                  {
-                    text: "In vitro diagnostic medical devices",
-                    value: "#"
-                  },
-                  {
-                    text: "Noise emission in the environment by equipment for use outdoors",
-                    value: "#"
-                  },
-                  {
-                    text: "Machinery",
-                    value: "#"
-                  },
-                  {
-                    text: "Interoperability of the rail system within the Community (Recast)",
-                    value: "#"
-                  },
-                  {
-                    text: "Safety of toys",
-                    value: "#"
-                  },
-                  {
-                    text: "Transportable pressure equipment",
-                    value: "#"
-                  },
-                  {
-                    text: "Construction products",
-                    value: "#"
-                  },
-                  {
-                    text: "Pyrotechnic articles",
-                    value: "#"
-                  },
-                  {
-                    text: "Recreational craft and personal watercraft",
-                    value: "#"
-                  },
-                  {
-                    text: "Explosives for civil uses",
-                    value: "#"
-                  },
-                  {
-                    text: "Simple pressure vessels",
-                    value: "#"
-                  },
-                  {
-                    text: "Electromagnetic compatibility",
-                    value: "#"
-                  },
-                  {
-                    text: "Non-automatic weighing instruments",
-                    value: "#"
-                  },
-                  {
-                    text: "Measuring Instruments Directive",
-                    value: "#"
-                  },
-                  {
-                    text: "Lifts and safety components for lifts",
-                    value: "#"
-                  },
-                  {
-                    text: "Equipment and protective systems intended for use in potentially explosive atmospheres (recast)",
-                    value: "#"
-                  },
-                  {
-                    text: "Radio equipment",
-                    value: "#"
-                  },
-                  {
-                    text: "Pressure equipment",
-                    value: "#"
-                  },
-                  {
-                    text: "Marine equipment",
-                    value: "#"
-                  },
-                  {
-                    text: "Interoperability of the European Air Traffic Management network",
-                    value: "#"
-                  },
-                  {
-                    text: "Interoperability of Electronic Road Toll Systems",
-                    value: "#"
-                  },
-                  {
-                    text: "Appliances burning gaseous fuels",
-                    value: "#"
-                  },
-                  {
-                    text: "Personal protective equipment",
-                    value: "#"
-                  },
-                  {
-                    text: "Cableway installations",
-                    value: "#"
-                  }
-                ],
-                name: "single-or-multi-component"
-            })
-        }}
+      {{
+        selectOptions({
+          label: "Legislation",
+          name: "legislation",
+          options: [
+            "Personal protective equipment",
+            "Active implantable medical devices",
+            "Hot-water boilers",
+            "Medical devices",
+            "Recreational craft",
+            "In vitro diagnostic medical devices",
+            "Noise emission in the environment by equipment for use outdoors",
+            "Machinery",
+            "Interoperability of the rail system within the Community (Recast)",
+            "Safety of toys",
+            "Transportable pressure equipment",
+            "Construction products",
+            "Pyrotechnic articles",
+            "Recreational craft and personal watercraft",
+            "Explosives for civil uses",
+            "Simple pressure vessels",
+            "Electromagnetic compatibility",
+            "Non-automatic weighing instruments",
+            "Measuring Instruments Directive",
+            "Lifts and safety components for lifts",
+            "Equipment and protective systems intended for use in potentially explosive atmospheres (recast)",
+            "Radio equipment",
+            "Pressure equipment",
+            "Marine equipment",
+            "Interoperability of the European Air Traffic Management network",
+            "Interoperability of Electronic Road Toll Systems",
+            "Appliances burning gaseous fuels",
+            "Cableway installations"
+          ]
+        })
+      }}
+    </form>
 
     </div>
     <div class="govuk-grid-column-two-third">

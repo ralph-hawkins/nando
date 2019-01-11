@@ -3,19 +3,20 @@
   <fieldset class="govuk-fieldset" aria-describedby="waste-hint">
     <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
       <h1 class="govuk-heading-s">
-        {{ name }}
+        {{ config.label }}
       </h1>
     </legend>
     {% for option in config.options %}
     <div class="govuk-checkboxes__item">
-      <input class="govuk-checkboxes__input" id="waste-1" name="waste" type="checkbox" value="carcasses">
-      <label class="govuk-label govuk-checkboxes__label" for="waste-1">
-        {{ option.text }}
+      <input class="govuk-checkboxes__input" id="{{loop.index}}" name="legislation" type="checkbox" value="{{option}}">
+      <label class="govuk-label govuk-checkboxes__label" for="{{loop.index}}">
+        {{ option }}
       </label>
     </div>
     {% endfor %}
   </fieldset>
 </div>
+
 {% endmacro %}
 
 {% macro docResult(doc) %}
