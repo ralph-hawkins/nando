@@ -5,7 +5,7 @@ const router = express.Router()
 
 router.get('/', function(req, res, next) {
   if(!req.query.legislation) {
-    req.session.data.legislation = []
+    res.locals.data.legislation = []
   }
   next()
 })
