@@ -71,14 +71,19 @@ module.exports = function (env) {
       
       if (searchingOn) {
         const match = searchTerms.trim().split(' ').some(term => {
-          const searchables = [
+          const flatMap = (f,xs) => xs.reduce((acc,x) => acc.concat(f(x)), []) // flatMap isn't available in node.js 8
+
+          const bodySearchables = [
             doc.body.number,
             doc.body.name,
             doc.body.contact.email,
             doc.body.contact.phoneNumber,
             doc.body.contact.address,
-          ].concat(doc.accs.flatMap(acc => acc.rows.flatMap(row => row.products.concat(row.procedures))))
-          .concat(doc.accs.map(acc => acc.name))
+          ]          
+          const productsAndProcedures = flatMap(acc => flatMap(row => row.products.concat(row.procedures), acc.rows), doc.accs)
+          const accsNames = doc.accs.map(acc => acc.name)
+          const searchables = bodySearchables.concat(productsAndProcedures).concat(accsNames)
+          
           return searchables.some(searchable => searchable && 
             searchable.toLowerCase().indexOf(term.toLowerCase()) !== -1
           )
