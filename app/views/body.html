@@ -24,8 +24,11 @@
       <h1 class="govuk-heading-xl">
         {{doc.body.name}}
       </h1>
-      <p class='govuk-body-l'>
-        Body number: {{doc.body.number}}
+      <p class='govuk-!-margin-bottom-0'>
+        Approved body number: {{doc.body.number}}
+      </p>
+      <p class=''>
+        Body type: {{doc.body.bodyType}}
       </p>
       <dl class=''>
         <dt class="govuk-body-s">Last updated:</dt>
@@ -47,6 +50,9 @@
       </h3>
       <ul class='govuk-list'>
         <li class='govuk-!-padding-bottom-2'>
+          {{doc.body.contact.website}}
+        </li>
+        <li class='govuk-!-padding-bottom-2'>
           {{doc.body.contact.email}}
         </li>
         <li class='govuk-!-padding-bottom-2'>
@@ -60,21 +66,27 @@
 
     </div>
     <div class='govuk-grid-column-full'>
-      <h2 class='govuk-heading-m govuk-!-margin-bottom-4'>
+      <h2 class='govuk-heading-l govuk-!-margin-bottom-4'>
         Accreditations
       </h2>
       {% for acc in doc.accs %}
-        <h2 class='govuk-heading-s'>
+        <h2 class='govuk-heading-m'>
           {{acc.name}}
         </h2>
-        <table class='govuk-body-s legislation'>
+        <table class='govuk-body-m legislation'>
           <thead>
             <tr>
+              <th>
+                Products
+              </th>
               <th>
                 Procedures
               </th>
               <th>
-                Products
+                Annexes
+              </th>
+              <th>
+                Limitations
               </th>
             </tr>
           </thead>
@@ -82,16 +94,36 @@
             {% for row in acc.rows %}
               <tr>
                 <td>
-                  {% for procedure in row.procedures %}
-                      {{procedure}}
-                    {% endfor %}
-                </td>
-                <td>
-                  <ul class='govuk-list-bullets'>
+                  <ul class='govuk-list'>
                     {% for product in row.products %}
                       <li>{{product}}</li>
                     {% endfor %}
                   </ul>
+                </td>
+                <td>
+                  <ul class='govuk-list'>
+                    {% for procedure in row.procedures %}
+                      <li>{{procedure}}</li>
+                    {% endfor %}
+                    </ul>
+                </td>
+                <td>
+                  <ul class='govuk-list'>
+                    {% for annex in row.annexes %}
+                      <li>{{annex}}</li>
+                    {% endfor %}
+                    </ul>
+                </td>
+                <td>
+                  <ul class='govuk-list'>
+                      {% if row.limitations | length == 0 %}
+                          None
+                        {% else %}
+                        {% for limitation in row.limitations %}
+                          <li>{{limitation}}</li>
+                        {% endfor %}
+                      {% endif %}
+                    </ul>
                 </td>
               </tr>
             {% endfor %}

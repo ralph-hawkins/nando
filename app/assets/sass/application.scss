@@ -67,12 +67,16 @@ a {
   border-collapse: collapse;
   margin-bottom: 50px !important;
   th, td {
-    width: 33%;
+    width: 50%;
     border-bottom: 1px solid black;
     text-align: left;
     vertical-align: top;
-    padding: 10px 10px 10px 0;
+    padding: 10px 50px 10px 0;
     .govuk-list-bullets {
+      margin: 0px;
+    }
+    ul {
+      padding: 0px;
       margin: 0px;
     }
   }

@@ -30,7 +30,10 @@
     </h3>
     <table class='govuk-body-xs'>
       <tbody>
-        <td>{{ doc.body.number }}</td>
+        <td>
+          <strong>Body type:</strong>  {{ doc.body.bodyType }}<br>
+          <strong>UK approved body number:</strong>  {{ doc.body.number }}
+        </td>
       </tbody>
     </table>
   </li>
