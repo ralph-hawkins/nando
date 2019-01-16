@@ -25,7 +25,7 @@ Example usage:
     authorisedBy: [],
     contact: {
       email: "",
-      website: "www.4wardtesting.co.uk",
+      website: "x",
       phoneNumber: "",
       address: "\n\n\n"
     }
@@ -84,7 +84,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "info@4wardtesting.co.uk",
-          website: "http://www.aberdeenshire.gov.uk/business/trading-standards",
+          website: "www.4wardtesting.co.uk ",
           phoneNumber: "01798 342240",
           address: "5 Hampers Common Industrial Estate\nPetworth\nWest Sussex\nGU28 9NR\nPetworth"
         }
@@ -185,7 +185,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "steven.macaulay@aberdeenshire.gov.uk",
-          website: "www.eagle.or",
+          website: "http://www.aberdeenshire.gov.uk/business/trading-standards/",
           phoneNumber: "0 1467 628149",
           address: "Gordon House\nBlackhall Road\nInverurie\nAB51 3WA"
         }
@@ -245,7 +245,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "abs-eur@eagle.org",
-          website: "www.aegisengineering.co.uk",
+          website: "www.eagle.org",
           phoneNumber: "0(0)20 72473255",
           address: "ABS\nHouse 1 Frying Pan Alley\nLONDON\nE1 7HR"
         }
@@ -706,7 +706,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "markmccool@aegisengineering.co.uk",
-          website: "www.airproducts.co.uk",
+          website: "www.aegisengineering.co.uk ",
           phoneNumber: "0 1332 384 302",
           address: "29 Brunel Parkway\nPride Park Derbyshire\nDE24 8HR\nDerby"
         },
@@ -723,7 +723,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "deanm@airproducts.com",
-          website: "www.intertek.com",
+          website: "www.airproducts.co.uk",
           phoneNumber: "0:20:8917 8425",
           address: "Hersham Place\nMolesey Road\nKT12\n4RZ WALTON-ON-THAMES"
         },
@@ -740,7 +740,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "techsup.medical@intertek.com",
-          website: "www.amtriveritas.com",
+          website: "www.intertek.com ",
           phoneNumber: "0 190 8857 777",
           address: "Davy Avenue\nKnowlhill\nMilton\nKeynes MK5 8NL"
         },
@@ -757,7 +757,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "beun@amtriveritas.com",
-          website: "www.angus.gov.uk",
+          website: "www.amtriveritas.com ",
           phoneNumber: "0 1625 412542",
           address: "Veritas House Pierce Street\nMacclesfield\nCheshire SK11 6ER"
         },
@@ -774,7 +774,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "tradstand@angus.gov.uk",
-          website: "http://www.arrowheadltd.co",
+          website: "www.angus.gov.uk ",
           phoneNumber: "0/1307.473917",
           address: "County Buildings Market Street\nForfar\nDD8 3WT"
         },
@@ -791,7 +791,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "Simon.davies@arrowheadis.com",
-          website: "www.atkinsglobal.com",
+          website: "http://www.arrowheadltd.com",
           phoneNumber: "01780 758550",
           address: "Orion House\n14 Barn Hill\nStamford\nPE9 2AE"
         },
@@ -808,7 +808,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "ian.shirtcliffe@atkinsglobal.com",
-          website: "www.avtechnology.co.uk",
+          website: "www.atkinsglobal.com ",
           phoneNumber: "01332 225752",
           address: "Trent House\nRTC Business Park\nLondon Road\nDERBY\n DE24 8UP"
         },
@@ -825,8 +825,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "alanmatthews@avtechnology.co.uk",
-          website: "",
-          phoneNumber: "0 161 486 3737",
+          website: "www.avtechnology.co.uk ",
           address: "Avtech House\nArkle Avenue\nStanley Green Trading Estate\nHandforth\nCheshire SK9 3RW"
         },
       },
@@ -842,7 +841,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "nobo@altran.com",
-          website: "www.ascertiva.co",
+          website: " ",
           phoneNumber: "0 1225 823860",
           address: "22 St. Lawrence Street Southgate\nBath\nBA1 1AN"
         },
@@ -859,7 +858,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "enquiries@ascertiva.com",
-          website: "www.mastergasonline.co",
+          website: "www.ascertiva.com",
           phoneNumber: "01582 539 000",
           address: "Warwick House\nHoughton Hall Park\nHoughton Regis\nDunstable\n LU5 5ZX United Kingdom"
         },
@@ -876,7 +875,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "luke@graflow.co.uk",
-          website: "www.blackwood-labs.co.uk",
+          website: "www.mastergasonline.com",
           phoneNumber: "161 330 6630",
           address: "15 Turner St. Ashton under Lyne Lancashire OL6 8LT\nAshton\nunder Lyne"
         },
@@ -893,7 +892,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "info@blackwood-labs.co.uk",
-          website: "www.boc.co",
+          website: "www.blackwood-labs.co.uk ",
           phoneNumber: "0 1495 229219",
           address: "Unit 8 Woodfieldside Business Park Pontllanfraith\nBlackwood\nNP12 2DG"
         },
@@ -910,7 +909,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "customer.service@uk.gases.boc.com",
-          website: "www.breglobal.co.uk",
+          website: "www.boc.com",
           phoneNumber: "01483 579857",
           address: "The Priestley Centre 10 Priestley Road The Surrey Research Park\nGuildford\nGU2 5XY"
         },
@@ -927,7 +926,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "prattm@bre.co.uk",
-          website: "www.breglobal.co",
+          website: "www.breglobal.co.uk",
           phoneNumber: "0 1923 664100",
           address: "Bucknalls Lane\nGarston\nWatford\nWD25 9XX"
         },
@@ -944,7 +943,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "prattm@bre.co.uk",
-          website: "www.bbacerts.co.uk",
+          website: "www.breglobal.com",
           phoneNumber: "01923 664241",
           address: "Bucknalls Lane\nGarston\nWatford\nWD25 9XX"
         },
@@ -961,7 +960,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "clientservices@bbacerts.co.uk",
-          website: "www.britishengineeringservices.co.uk",
+          website: "www.bbacerts.co.uk ",
           phoneNumber: "01923 665300",
           address: "Bucknalls Lane\nGarston\nWD25\n9BA WATFORD"
         },
@@ -978,7 +977,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "allan.bayne@briteng.co.uk",
-          website: "http://www.biegroup.co",
+          website: "www.britishengineeringservices.co.uk ",
           phoneNumber: "0 161 694 2052",
           address: "5 New York Street\nManchester\nM1 4JB"
         },
@@ -995,7 +994,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "michael.watson@bieltd.co.uk",
-          website: "www.bindt.or",
+          website: "http://www.biegroup.com",
           phoneNumber: "0 1246 260260",
           address: "Chatsworth Technology Park\nDunston Road\nWhittington Moor\nChesterfield\n S41 8XA"
         },
@@ -1012,7 +1011,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "nicole.scutt@bindt.org",
-          website: "www.bsigroup.com",
+          website: "www.bindt.org",
           phoneNumber: "893811",
           address: "Newton Building\nSt Georges Avenue\nNN2\n6JB NORTHAMPTON"
         },
@@ -1029,7 +1028,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "product.certification@bsigroup.com",
-          website: "www.bsria.co.uk",
+          website: "www.bsigroup.com ",
           phoneNumber: "0 8450 809000",
           address: "Kitemark Court Davy Avenue Knowlhill\nMilton\nKeynes MK5 8PP"
         },
@@ -1046,7 +1045,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "Arnold.Teekaram@bsria.co.uk",
-          website: "www.bttg.co.uk",
+          website: "www.bsria.co.uk",
           phoneNumber: "465600",
           address: "Old Bracknell Lane West\nRG12\n7AH BRACKNELL"
         },
@@ -2187,7 +2186,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "cabutcher@bttg-cert.co.uk",
-          website: "http://www.bureauveritas.co.uk/wps/wcm/connect/bv_couk/Local/Home/Our-Services/Certification",
+          website: "www.bttg.co.uk ",
           phoneNumber: "0 161 873 6543",
           address: "Unit 14\nWheel Forge Way\nTrafford Park\nManchester\nM17 1EH United Kingdom"
         },
@@ -2204,7 +2203,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "david.sharman@uk.bureauveritas.com",
-          website: "www.bureauveritas.com/cp",
+          website: "http://www.bureauveritas.co.uk/wps/wcm/connect/bv_couk/Local/Home/Our-Services/Certification/",
           phoneNumber: "020 7661 0700",
           address: "Great Guildford House\n30 Great Guildford Street\nLondon\nSE1 0ES"
         },
@@ -2221,7 +2220,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "bvsales@uk.bureauveritas.com",
-          website: "www.bureauveritas.co.uk",
+          website: "www.bureauveritas.com/cps",
           phoneNumber: "0 1925 854360",
           address: "31 Kingsland Grange\nWoolston\nWarrington\n Cheshire WA1 4RW"
         },
@@ -2238,8 +2237,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "manchester@uk.bureauveritas.com",
-          website: "",
-          phoneNumber: "0 161 446 4600",
+          website: "www.bureauveritas.co.uk",
           address: "Parklands 825A Wilmslow Road Didsbury\nManchester\nM20 2RE"
         },
       },
@@ -2255,8 +2253,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "a.c.bunn@bury.gov.uk",
-          website: "",
-          phoneNumber: "44 0 161 2536022",
+          website: " ",
           address: "3 Knowsley Place Duke Street\nBURY\nBL9 0EJ"
         },
       },
@@ -2272,7 +2269,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "neil@blueanchor-fs.co.uk",
-          website: "www.basec.org.uk",
+          website: " ",
           phoneNumber: "0 1466 751389",
           address: "Nethermills Cottage\nCornhill\nBanff\nAberdeen\n AB45 2ET"
         },
@@ -2289,7 +2286,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "mail@basec.org.uk",
-          website: "www.bbacerts.co.uk",
+          website: "www.basec.org.uk ",
           phoneNumber: "01908 267300",
           address: "Presley House\nPresley Way\nCrownhill\nMilton\nKeynes, MK8 0ES"
         },
@@ -2306,7 +2303,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "clientservices@bbacerts.co.uk",
-          website: "www.buildcheck.co.uk",
+          website: "www.bbacerts.co.uk ",
           phoneNumber: "01923 665300",
           address: "Bucknalls Lane\nGarston\n Watford WD25 9BA"
         },
@@ -2323,7 +2320,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "info@buildcheck.co.uk",
-          website: "http://www.building-testing.co.uk",
+          website: "www.buildcheck.co.uk ",
           phoneNumber: "01494 452 713",
           address: "Montrose House\nLancaster Road\nCressex Business Park\nHigh\nWycombe, Buckinghamshire HP12 3PY"
         },
@@ -2340,8 +2337,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "bitslab@btconnect.com",
-          website: "",
-          phoneNumber: "216:39:12",
+          website: "http://www.building-testing.co.uk",
           address: "Quarryside Business Park\noff Holmethorpe Industial Estate\n(Watercolour)\nThornton Side\nRedhill\nRH1 2LJ"
         },
       },
@@ -2357,7 +2353,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "",
-          website: "www.ccqs.co.uk",
+          website: " ",
           phoneNumber: "44.753.54.00.00",
           address: "Appleton Park\nSL3\n9JG SLOUGH"
         },
@@ -2374,7 +2370,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "info@ccqs.co.uk",
-          website: "http://www.cem-international.co.uk",
+          website: "www.ccqs.co.uk ",
           phoneNumber: "020 7868 1509",
           address: "Level 2 5 Harbour Exchange Square\nLondon\n E14 9GE"
         },
@@ -2391,7 +2387,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "paul.white@cem-international.co.uk",
-          website: "www.catg.co.uk",
+          website: "http://www.cem-international.co.uk ",
           phoneNumber: "0 1252 547721",
           address: "Westmead House\nWestmead\nFarnborough\n Hampshire, GU14 7LP"
         },
@@ -2408,7 +2404,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "glennsharples@hotmail.com",
-          website: "www.cesaglobal.com",
+          website: "www.catg.co.uk ",
           phoneNumber: "44(0) 1524 400632",
           address: "29 A Princes Crescent\nMorecambe\n Lancashire LA4 6BY"
         },
@@ -2425,7 +2421,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "tech@cesaglobal.com",
-          website: "www.cheshirewestandchester.gov.uk",
+          website: "www.cesaglobal.com ",
           phoneNumber: "01707 828783",
           address: "Maple House High Street\nPotters\nBar EN6 5BS"
         },
@@ -2442,7 +2438,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "calibrationservice@cheshirewestandchester.gov.uk",
-          website: "www.codeaweld.co",
+          website: "www.cheshirewestandchester.gov.uk",
           phoneNumber: "0 1244 973986",
           address: "Regulatory Services HQ Building Nicholas Street\nChester\nCH1 2NP"
         },
@@ -2459,8 +2455,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "info@codeaweld.com",
-          website: "",
-          phoneNumber: "44 1761 410410",
+          website: "www.codeaweld.com",
           address: "Unit 2\nSecond Avenue\nWestfield Trading Estate\nRadstock\nBA3 4BE"
         },
       },
@@ -2476,7 +2471,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "",
-          website: "www.blueskycert.co",
+          website: " ",
           phoneNumber: "44 1761 410410",
           address: "The Courts - Carlisle\nCA3\n8LZ CUMBRIA"
         },
@@ -2493,7 +2488,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "sbeer@blueskycert.com",
-          website: "www.calor.co.uk",
+          website: "www.blueskycert.com",
           phoneNumber: "44(0) 1753 303828",
           address: "20 – 22 Wenlock Road\nLondon\nN1 7GU"
         },
@@ -2510,7 +2505,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "aneale@calor.co.uk",
-          website: "www.calorgas.i",
+          website: "www.calor.co.uk",
           phoneNumber: "0 1926 330088",
           address: "Athena House Athena Drive Tachbrook Park\nWarwick\nCV34 6RL"
         },
@@ -2527,7 +2522,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "info@calorgas.ie",
-          website: "www.cambridge-fire.co.uk",
+          website: "www.calorgas.ie",
           phoneNumber: "02890 735047",
           address: "Pressure Test Services Airport Road West Sydenham\nBelfast\nBT3 9EE"
         },
@@ -2544,8 +2539,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "testing@cambridge-fire.co.uk",
-          website: "",
-          phoneNumber: "44(0) 1223 834752",
+          website: "www.cambridge-fire.co.uk ",
           address: "Brewery Road\nPampisford\nCambridge\nCB22 3HG"
         },
       },
@@ -2561,7 +2555,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "dc_cct@btconnect.com",
-          website: "www.centreforassessment.co.uk/",
+          website: " ",
           phoneNumber: "01757 709552",
           address: "Central Lodge Thorpe Wood Selby YO8 3RG\nNorth\nYorkshire"
         },
@@ -2578,7 +2572,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "enquiries@centreforassessment.co.uk",
-          website: "info@cmlex.com",
+          website: "www.centreforassessment.co.uk/ ",
           phoneNumber: "00161 237 4080",
           address: "Churchgate House\n56 Oxford Street\nManchester M1 6EU\nManchester"
         },
@@ -2595,7 +2589,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "info@cmlex.com",
-          website: "www.certifiedconformity.co.uk",
+          website: "info@cmlex.com ",
           phoneNumber: "0 151 559 1160",
           address: "Unit 1 Newport Business Park New Port Road\nEllesmere\nPort CH65 4LZ"
         },
@@ -2612,7 +2606,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "enquiries@certifiedconformity.co.uk",
-          website: "www.codeaweld.co",
+          website: "www.certifiedconformity.co.uk",
           phoneNumber: "0 8455191629",
           address: "Suite 5 Hearle House East Terrace Business Park Euxton Lane Euxton\nChorley\nPR7 6TB"
         },
@@ -2629,7 +2623,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "inspection@codeaweld.com",
-          website: "www.csts.co.uk",
+          website: "www.codeaweld.com",
           phoneNumber: "0 1761 410410",
           address: "2nd Avenue Westfield Trading Estate\nRadstock\nBath BA3 4BE"
         },
@@ -2646,7 +2640,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "kevin@csts.co.uk",
-          website: "www.cranage.co.uk",
+          website: "www.csts.co.uk ",
           phoneNumber: "0208 805 5144",
           address: "25 Jute Lane\nBrimsdown\nEnfield\nMiddlesex EN3 7PF"
         },
@@ -2663,7 +2657,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "mark@cranage.co.uk",
-          website: "www.ctsukltd.com",
+          website: "www.cranage.co.uk",
           phoneNumber: "44 01630 658568 Ext. 102",
           address: "Stable Court Oakley\nMarket\nDrayton TF9 4AG"
         },
@@ -2680,8 +2674,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "ctsuk@btconnect.com",
-          website: "",
-          phoneNumber: "0151 448 0555",
+          website: "www.ctsukltd.com ",
           address: "16 Bridge Industrial Estate Speke Hall Road L24 9HB\nLiverpool"
         },
       },
@@ -2697,7 +2690,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "",
-          website: "www.deltarail.co",
+          website: " ",
           phoneNumber: "44.123.551.36.21",
           address: "Purchas Road - Didcot\nOX11\n7HG OXON"
         },
@@ -2714,7 +2707,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "paul.harborough@deltarail.co.uk",
-          website: "www.derbyshire.gov.uk",
+          website: "www.deltarail.com",
           phoneNumber: "44:870:190 1323",
           address: "Hudson House 2 Hudson Way Pride Park Derby DE24 8HS\nDerby"
         },
@@ -2731,7 +2724,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "robert.taylour@derbyshire.gov.uk",
-          website: "www.dnvgl.co",
+          website: "www.derbyshire.gov.uk",
           phoneNumber: "44(0) 1629 580000",
           address: "Chatsworth Hall Chesterfield Road\nMatlock\nDE4 3FW"
         },
@@ -2748,8 +2741,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "andrew.derbyshire@dnvgl.com",
-          website: "",
-          phoneNumber: "0 203 816 4541",
+          website: "www.dnvgl.com",
           address: "Palace House\n3 Cathedral Street\nLondon\nSE1 9DE"
         },
       },
@@ -2765,8 +2757,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "antony.p.heaven@dowcorning.com",
-          website: "",
-          phoneNumber: "0 1446 723218",
+          website: " ",
           address: "Cardiff Road\nBarry\nSouth Glamorgan CF63 2YL"
         },
       },
@@ -2782,7 +2773,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "",
-          website: "www.dtgtesting.com",
+          website: " ",
           phoneNumber: "44.127.868.33.43",
           address: "Bridgewater - Puriton\nTA7\n8AD SOMERSET"
         },
@@ -2799,8 +2790,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "testing@dtg.org.uk",
-          website: "",
-          phoneNumber: "020 7840 6550",
+          website: "www.dtgtesting.com ",
           address: "5th Floor 89 Albert Embankment Vauxhall\nLondon\nSE1 7TP"
         },
       },
@@ -2816,8 +2806,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "",
-          website: "",
-          phoneNumber: "44.150.486.08.60",
+          website: " ",
           address: "Maydown Works - PO Box 15\nBT47\n1TU LONDONDERRY"
         },
       },
@@ -2833,8 +2822,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "ken.daly@dundeecity.gov.uk",
-          website: "",
-          phoneNumber: "44/13.82.43.62.60",
+          website: " ",
           address: "3 City Square\nDundee\nDD1 3BA"
         },
       },
@@ -2850,7 +2838,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "john.watson@dsg.mod.uk",
-          website: "www.economy-ni.gov.uk",
+          website: " ",
           phoneNumber: "0 1785 785181",
           address: "Cryogenics and Gas Section DSG Stafford Bld 34A\nSite 6\nBeaconside\nStafford ST18 0AQ"
         },
@@ -2867,7 +2855,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "Michelle.Craig@economy-ni.gov.uk",
-          website: "www.dominion-gas.com",
+          website: "www.economy-ni.gov.uk",
           phoneNumber: "44(0) 28 9025 3905",
           address: "176 Newtonbreda Road\nBELFAST\nBT8 6QS"
         },
@@ -2884,7 +2872,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "DTGL@dominion-gas.com",
-          website: "www.norfolk.gov.uk/calibration",
+          website: "www.dominion-gas.com ",
           phoneNumber: "#ERROR!",
           address: "Dominion Building Howemoss Avenue Kirkhill Industrial Estate Dyce AB21 0GP\nAberdeen"
         },
@@ -2901,8 +2889,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "calibration@norfolk.gov.uk",
-          website: "",
-          phoneNumber: "0 1953 859149",
+          website: "www.norfolk.gov.uk/calibration ",
           address: "C/O Norfolk County Council Unit 69 Hethel Engineering Centre Chapman Way Hethel\nNorwich\nNR14 8FB"
         },
       },
@@ -2918,7 +2905,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "mike@emc-project.co.uk",
-          website: "www.exova.co",
+          website: " ",
           phoneNumber: "0 1425 479979",
           address: "Holly Grove Farm Verwood Road\nAshley\nRingwood BH24 2DB"
         },
@@ -2935,7 +2922,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "europe@exova.com",
-          website: "www.element.co",
+          website: "www.exova.com",
           phoneNumber: "#REF!:569800",
           address: "Chiltern House\nStocking Lane\nHP14\n4ND HIGH WYCOMBE"
         },
@@ -2952,7 +2939,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "test@tracglobal.com",
-          website: "http://www.exova.com",
+          website: "www.element.com",
           phoneNumber: "0 1926 478478",
           address: "Rothwell Road\nWarwick\nCV34 5JX"
         },
@@ -2969,7 +2956,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "ian.keeling@exova.com",
-          website: "www.energas.co.uk",
+          website: "http://www.exova.com ",
           phoneNumber: "0 1902:722122",
           address: "Key Industrial Park\nFernside Road\nWV13\n3YA WILLENHALL"
         },
@@ -2986,7 +2973,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "info@energas.co.uk",
-          website: "www.essar.co",
+          website: "www.energas.co.uk",
           phoneNumber: "01482 329333",
           address: "Westmorland Street\nHull\nHU2 0HX"
         },
@@ -3003,7 +2990,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "chris.davies@stanlowrefinery.co.uk",
-          website: "www.essar.co",
+          website: "www.essar.com",
           phoneNumber: "0 151 350 4984",
           address: "PO Box 3 Ellesmere Port\nSouth\nWirral CH56 4HB"
         },
@@ -3020,7 +3007,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "chris.davies@essaroil.co.uk",
-          website: "www.Product-Testing.eurofins.com",
+          website: "www.essar.com",
           phoneNumber: "0151 350 4984",
           address: "Stanlow Manufacturing Complex Ellesmere Port\nUK\nCHESHIRE CH65 4HB"
         },
@@ -3037,7 +3024,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "judithrussell@eurofins.co.uk",
-          website: "www.eqa.co.uk",
+          website: "www.Product-Testing.eurofins.com ",
           phoneNumber: "0 161 868 7600",
           address: "Durham House\nCross Street\nSale\nM33 7HH"
         },
@@ -3054,7 +3041,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "eqa@eqa.co.uk",
-          website: "http://www.exveritas.com",
+          website: "www.eqa.co.uk",
           phoneNumber: "44 1636 611226",
           address: "Newark Beacon Beacon Hill Office Park Cafferata Way\nNewark\nNG24 2TN"
         },
@@ -3071,7 +3058,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "s.clarke@exveritas.com",
-          website: "www.exovabmtrada.com",
+          website: "http://www.exveritas.com ",
           phoneNumber: "44 0845 862 2447",
           address: "Ex Veritas Limited Units 16 - 18 Abenbury Way Wrexham Industrial Estate\nWrexham\nLL13 9UZ"
         },
@@ -3088,7 +3075,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "cert.admin@exova.com",
-          website: "www.fifedirect.org.uk/tradingstandards",
+          website: "www.exovabmtrada.com ",
           phoneNumber: "44(0) 1494 569 700",
           address: "Stocking Lane\nHughenden Valley\nBUCKS\nHP14 4NR HIGH WYCOMBE"
         },
@@ -3105,7 +3092,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "dawn.adamson@fife.gov.uk",
-          website: "www.blackpool.ac.uk/fosc",
+          website: "www.fifedirect.org.uk/tradingstandards ",
           phoneNumber: "44/34.51.55.55.55",
           address: "Trading Standards Kingdom House Kingdom Avenue Glenrothes\nFife\nKY7 5LY"
         },
@@ -3122,7 +3109,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "Brooke.Schofield@blackpool.ac.uk",
-          website: "www.fmapprovals.co",
+          website: "www.blackpool.ac.uk/fosc ",
           phoneNumber: "0 1253 504725",
           address: "Blackpool and the Fylde College Fleetwood Nautical Campus Broadwater Fleetwood\nFY7\n8JZ Lancashire"
         },
@@ -3139,7 +3126,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "andrew.was@fmglobal.com",
-          website: "www.fmapprovals.co",
+          website: "www.fmapprovals.com",
           phoneNumber: "44:1753:750 000",
           address: "1 Windsor Dials\nWindsor"
         },
@@ -3156,7 +3143,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "andrew.was@fmapprovals.com",
-          website: "www.flameskill.co.uk",
+          website: "www.fmapprovals.com",
           phoneNumber: "2:138:750000",
           address: "1 Windsor Dials\nWindsor\n Berkshire, SL4 1RS"
         },
@@ -3173,7 +3160,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "admin@flameskill.co.uk",
-          website: "www.flogas.co.uk",
+          website: "www.flameskill.co.uk ",
           phoneNumber: "01493 440464",
           address: "1\nMorton Peto Estate\nGreat\nYarmouth Norfolk NR31 0LT"
         },
@@ -3190,8 +3177,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "alan.kirk@flogas.co.uk",
-          website: "",
-          phoneNumber: "01493 440464",
+          website: "www.flogas.co.uk ",
           address: "Rayns Way Watermead Business Park Syston LE7 1PF\nLeicester"
         },
       },
@@ -3207,7 +3193,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "",
-          website: "www.gl-group.com/certser",
+          website: " ",
           phoneNumber: "44/19.14.77.10.11",
           address: "Civic Center - Regent Street\nNE8\n1HH Gateshead - Tyne & Wear"
         },
@@ -3224,8 +3210,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "cert.serv@gl-group.com",
-          website: "",
-          phoneNumber: "0 1509 282066",
+          website: "www.gl-group.com/certserv",
           address: "Holywell Park\nNew Ashby Road\nLoughborough\nLE11 3GR"
         },
       },
@@ -3241,7 +3226,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "william@gammaxuk.co.uk",
-          website: "www.gascylindersuk.co.uk",
+          website: " ",
           phoneNumber: "01284 850888",
           address: "Units 12-13 Oaklands Business Park Rougham Hill\nBury\nSt Edmunds IP33 2RW"
         },
@@ -3258,7 +3243,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "gascylinders@blueyonder.co.uk",
-          website: "www.glass-ts.com",
+          website: "www.gascylindersuk.co.uk ",
           phoneNumber: "01942 865070",
           address: "340 Haydock Lane Haydock Industrial Estate St Helens WA11 9UY\nMerseyside"
         },
@@ -3275,7 +3260,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "h.marsh@britglass.co.uk",
-          website: "www.globalgroup.ne",
+          website: "www.glass-ts.com ",
           phoneNumber: "44(0) 114 290 1801",
           address: "9 Churchill Way Chapeltown\nSheffield\nS35 2PY"
         },
@@ -3292,8 +3277,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "enquiry@globalgroup.net",
-          website: "",
-          phoneNumber: "0 845 548 9001",
+          website: "www.globalgroup.net",
           address: "21 Lansdowne Crescent\nEdinburgh\nEH12 5EH"
         },
       },
@@ -3309,7 +3293,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "Stuart.Brown@ch2m.com",
-          website: "www.hants.gov.uk/tradingstandard",
+          website: " ",
           phoneNumber: "01332 222 636",
           address: "2nd Floor\nQuarnmill House\nStores Road\nDerby\nDE21 4XF"
         },
@@ -3326,7 +3310,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "neil.lawrence2@hants.gov.uk",
-          website: "www.hsl.gov.uk",
+          website: "www.hants.gov.uk/tradingstandards",
           phoneNumber: "44(0)1962 833696",
           address: "Montgomery House Monarch Way\nWinchester\nSO22 5PW"
         },
@@ -3343,7 +3327,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "stewart.myatt@hsl.gov.uk",
-          website: "www.highland.gov.uk",
+          website: "www.hsl.gov.uk ",
           phoneNumber: "44/12.98.28.15.0",
           address: "Harpur Hill\nSK17\n9JN Buxton"
         },
@@ -3360,7 +3344,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "mark.mcginty@highland.gov.uk",
-          website: "www.eucertification.co",
+          website: "www.highland.gov.uk",
           phoneNumber: "44(0) 1463 228700",
           address: "Trading Standards 38 Harbour Road\nInverness\nIV1 1UF"
         },
@@ -3377,7 +3361,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "ar@hipvs.com",
-          website: "www.hpivs.co",
+          website: "www.eucertification.com",
           phoneNumber: "0 1491 822817",
           address: "The Manor House Howbery Park Wallingford\nOxfordshire\nOX10 8BA"
         },
@@ -3394,7 +3378,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "ar@hpivs.com",
-          website: "www.hsb.co",
+          website: "www.hpivs.com",
           phoneNumber: "0 1491 822818",
           address: "The Manor House\nHowbery Park\nWallingford\nOX10 8BA"
         },
@@ -3411,7 +3395,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "gavin_edley@hsb.com",
-          website: "www.HSBGlobalStandards.com",
+          website: "www.hsb.com",
           phoneNumber: "44/161 621 5670",
           address: "Cairo House\nGreenacres R.\nWaterhead\nOL4\n3JA OLDHAM"
         },
@@ -3428,7 +3412,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "gavin_edley@hsbct.com",
-          website: "http://www.horiba-mira.com",
+          website: "www.HSBGlobalStandards.com ",
           phoneNumber: "0 161 832 9502",
           address: "Unit 7\nBrewery Yard Deva City Office Park Trinity Way\nSalford\n M3 7BB"
         },
@@ -3445,7 +3429,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "certification@horiba-mira.com",
-          website: "www.hursley-emc.co.uk",
+          website: "http://www.horiba-mira.com ",
           phoneNumber: "0 247 635 5500",
           address: "Watling Street\nNuneaton\nWarwickshire CV10 0TU"
         },
@@ -3462,8 +3446,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "Andy.Coombes@hursley-emc.co.uk",
-          website: "",
-          phoneNumber: "44(0)23 8027 1111",
+          website: "www.hursley-emc.co.uk",
           address: "Hursley EMC Services Limited Trafalgar House Trafalgar Close Chandler's Ford SO53 4BW\nChandler\ns Ford SO53 4BW"
         },
       },
@@ -3479,7 +3462,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "rob@hursley-emc.co.uk",
-          website: "www.ifccertification.com",
+          website: " ",
           phoneNumber: "023 8027 1111",
           address: "Trafalgar House Trafalgar Close\nEastleigh\nS053 4BW"
         },
@@ -3496,7 +3479,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "info@ifccertification.com",
-          website: "www.ifccertification.com",
+          website: "www.ifccertification.com ",
           phoneNumber: "2:219:275500",
           address: "20 Park Street\nPrinces\nRisborough, Buckinghamshire HP27 9AH"
         },
@@ -3513,7 +3496,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "info@ifccertification.com",
-          website: "www.inspec-international.com",
+          website: "www.ifccertification.com ",
           phoneNumber: "01844 275500",
           address: "20 Park Street\nPrinces\nRisborough Buckinghamshire\nHP27 9AH"
         },
@@ -3530,8 +3513,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "certification@inspec-international.com",
-          website: "",
-          phoneNumber: "0 161 737 0699",
+          website: "www.inspec-international.com ",
           address: "56 Leslie Hough Way\nSalford\nGreater\nManchester M6 6AJ"
         },
       },
@@ -3547,7 +3529,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "-",
-          website: "www.intertek.com",
+          website: " ",
           phoneNumber: "0 1372 370900",
           address: "ITS House\nCleeve Road\nKT22\n7SB LEATHERHEAD"
         },
@@ -3564,7 +3546,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "alan.reynard@intertek.com",
-          website: "www.isoqar.com",
+          website: "www.intertek.com ",
           phoneNumber: "0 1372 370900",
           address: "Intertek House\nCleeve Road\nLeatherhead\n Surrey KT22 7SA"
         },
@@ -3581,7 +3563,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "enquiries@isoqar.com",
-          website: "www.intertek.com",
+          website: "www.isoqar.com ",
           phoneNumber: "44.161 865 3699",
           address: "Cobra Court 1 Blackmore Road\nStretford\nManchester M32 0QY"
         },
@@ -3598,7 +3580,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "john.horsler@intertek.com",
-          website: "www.impact-solutions.co.uk",
+          website: "www.intertek.com ",
           phoneNumber: "44.116 263.0330",
           address: "Centre Court Meridian Business Park Leicester\nLeicester\nLE19 1WD"
         },
@@ -3615,7 +3597,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "info@impact-solutions.co.uk",
-          website: "www.incon.co.uk",
+          website: "www.impact-solutions.co.uk ",
           phoneNumber: "44:01324 489182",
           address: "16 Abbotsinch Road\nGRANGEMOUTH\nFK3 9UX"
         },
@@ -3632,7 +3614,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "neil@incon.co.uk",
-          website: "http://www.intersciencecomms.co.uk",
+          website: "www.incon.co.uk",
           phoneNumber: "0 151 357 2212",
           address: "Rosscliffe Road\nEllesmere\nPort Cheshire CH65 3BS"
         },
@@ -3649,7 +3631,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "firetesting@intersciencecomms.co.uk.",
-          website: "www.jrgases.co.uk",
+          website: "http://www.intersciencecomms.co.uk/",
           phoneNumber: "44(0)20 8692 5050",
           address: "Building 63\nHaslar Marine Technology Park Haslar Road\nGosport\nPO12 2AG"
         },
@@ -3666,8 +3648,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "micheline@jrgases.co.uk",
-          website: "",
-          phoneNumber: "01282 699369",
+          website: "www.jrgases.co.uk",
           address: "Bradley Hall Road Nelson Lancashire BB9 8HF\nNelson"
         },
       },
@@ -3683,7 +3664,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "erik.burgess@jwgplc.co.uk",
-          website: "www.jesp.co.uk",
+          website: " ",
           phoneNumber: "01595 693749",
           address: "Gremista Industrial Estate Lerwick ZE1 0PX\nShetland"
         },
@@ -3700,7 +3681,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "sales@jesp.co.uk",
-          website: "www.kent.gov.uk/tradingstandards",
+          website: "www.jesp.co.uk ",
           phoneNumber: "01384 483144",
           address: "Units 4 & 5 Bevan Road Industrial Estate Bevan Road Brierley Hill DY5 3TF\nWest\nMidlands"
         },
@@ -3717,7 +3698,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "steve.rock@kent.gov.uk",
-          website: "www.kiwa.co.uk",
+          website: "www.kent.gov.uk/tradingstandards ",
           phoneNumber: "0 3000414137",
           address: "TRADING STANDARDS PO BOX 320\nASHFORD\nKENT TN24 8AS"
         },
@@ -3734,7 +3715,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "enquiries@kiwa.co.uk",
-          website: "www.laidler.co.uk",
+          website: "www.kiwa.co.uk ",
           phoneNumber: "#REF!:677877",
           address: "Kiwa House Malvern View Business Park Stella Way Bishops Cleeve\nCheltenham\nGL52 7DQ"
         },
@@ -3751,7 +3732,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "enquire@laidler.co.uk",
-          website: "www.lancashire.gov.uk",
+          website: "www.laidler.co.uk",
           phoneNumber: "0 8700 111375",
           address: "Belaisis Business Centre Coxwold Way Billingham\nCleveland\nTS23 4EA"
         },
@@ -3768,7 +3749,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "calibration@lancashire.gov.uk",
-          website: "www.leics.gov.uk",
+          website: "www.lancashire.gov.uk",
           phoneNumber: "44(0) 1772 533564",
           address: "Trading Standards Room D21\nCounty Hall Pitt St\nPRESTON\nPR1 0LD"
         },
@@ -3785,7 +3766,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "tradingstandards@leics.gov.uk",
-          website: "www.liftcert.co.uk",
+          website: "www.leics.gov.uk ",
           phoneNumber: "0 116 305 8000",
           address: "Leicestershire County Council County Hall\nGlenfield\nLeicestershire LE3 8RA"
         },
@@ -3802,7 +3783,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "headoffice@liftcert.co.uk",
-          website: "www.lrqa.com",
+          website: "www.liftcert.co.uk ",
           phoneNumber: "0 1789 295300",
           address: "40\nTiddington Road\nStratford\nupon Avon Warwickshire CV37 7BA"
         },
@@ -3819,8 +3800,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "enquiries@lrqa.com",
-          website: "",
-          phoneNumber: "0 33041 41352",
+          website: "www.lrqa.com ",
           address: "1 Trinity Park Bickenhill Lane\nBirmingham\nB37 7ES"
         },
       },
@@ -3836,8 +3816,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "Nichola.Lund@havering.gov.uk",
-          website: "",
-          phoneNumber: "01708 433427",
+          website: " ",
           address: "Langtons Cottage Billet Lane\nHornchurch\nRM11 1XL"
         },
       },
@@ -3853,7 +3832,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "lloydsregisterapave@lr.org",
-          website: "www.lr.org",
+          website: " ",
           phoneNumber: "0 207 423 1535",
           address: "71 Fenchurch Street\nLondon\nEC3M 4BS"
         },
@@ -3870,7 +3849,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "ecdirectives@lr.org",
-          website: "www.lucideon.com",
+          website: "www.lr.org ",
           phoneNumber: "44 330 414 1337",
           address: "71 Fenchurch Street\nLondon\nEC3M 4BS"
         },
@@ -3887,7 +3866,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "support@lucideon.com",
-          website: "www.lucideon.com",
+          website: "www.lucideon.com ",
           phoneNumber: "01782 411008",
           address: "Queen's Road\nPenkhull\nStoke\non Trent"
         },
@@ -3904,8 +3883,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "Stephen.Morrey@lucideon.com",
-          website: "",
-          phoneNumber: "44:1782:764 428",
+          website: "www.lucideon.com ",
           address: "Queens Road\nPenkhull\nSTOKE\nON-TRENT ST47LQ"
         },
       },
@@ -3921,7 +3899,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "m.preston1@manchester.gov.uk",
-          website: "www.melaviation.co.uk",
+          website: " ",
           phoneNumber: "44(0) 161 2341554",
           address: "1 Hammerstone Road\nGorton\nMANCHESTER M18 8EQ"
         },
@@ -3938,8 +3916,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "info@melaviation.co.uk",
-          website: "",
-          phoneNumber: "44(0)1787 373282",
+          website: "www.melaviation.co.uk",
           address: "Laurance Walter House Addison Road Chilton Industrial Estate\nSudbury\nSuffolk CO10 2YW"
         },
       },
@@ -3955,7 +3932,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "",
-          website: "http://www.mottmac.com",
+          website: " ",
           phoneNumber: "44.133.236.31.00",
           address: "Oakhurst House - 57 Ashbourne Road\nDE22\n3FS DERBY"
         },
@@ -3972,7 +3949,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "dave.weaver@mottmac.com",
-          website: "www.railways.mottmac.com",
+          website: "http://www.mottmac.com ",
           phoneNumber: "44:20:7593 9703",
           address: "Sea Containers House\n20 Upper Ground\nLondon\nEngland. SE19LZ\nLondon"
         },
@@ -3989,7 +3966,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "dave.weaver@mottmac.com",
-          website: "www.meridiantechnicalservices.co",
+          website: "www.railways.mottmac.com ",
           phoneNumber: "020 7651 0632",
           address: "10 Fleet Place\nLondon\nEC4A 7RB"
         },
@@ -4006,8 +3983,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "sales@meridiantechnicalservices.com",
-          website: "",
-          phoneNumber: "0 2083103911",
+          website: "www.meridiantechnicalservices.com",
           address: "10-14 Hailey Road\nErith\n Kent DA18 4AP"
         },
       },
@@ -4023,7 +3999,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "michelle.clapham@minton.co.uk",
-          website: "www.mts-uk.co.uk",
+          website: " ",
           phoneNumber: "0 29 2054 0000",
           address: "Merton House Croescadarn Close\nCardiff\nWales CF23 8HF"
         },
@@ -4040,8 +4016,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "alan@mts-uk.co.uk",
-          website: "",
-          phoneNumber: "44 113 2407011",
+          website: "www.mts-uk.co.uk ",
           address: "118 Lupton Avenue\nLeeds\nLS29 6ED"
         },
       },
@@ -4057,8 +4032,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "",
-          website: "",
-          phoneNumber: "44.135.522.02.22",
+          website: " ",
           address: "East Kilbride\nG75\n0QU GLASGOW"
         },
       },
@@ -4074,7 +4048,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "UNKNOWN",
-          website: "https://www.gov.uk/government/organisations/office-for-product-safety-and-standard",
+          website: " ",
           phoneNumber: "44/15.82.86.67.66",
           address: "Gainsborough House - Houghton Hall Park\nW5\n5XZ Houghton Regis, Dunstable"
         },
@@ -4091,7 +4065,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "Mannie.Panesar@nmo.beis.gov.uk",
-          website: "www.northamptonshire.gov.uk",
+          website: "https://www.gov.uk/government/organisations/office-for-product-safety-and-standards",
           phoneNumber: "44:20:8943 7272",
           address: "Stanton Avenue Teddington\nMiddlesex\nTW11 0JZ"
         },
@@ -4108,7 +4082,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "amackay@northamptonshire.gov.uk",
-          website: "www.nottinghamshire.gov.uk",
+          website: "www.northamptonshire.gov.uk",
           phoneNumber: "0 1604 362437",
           address: "Trading Standards Department Wootton Hall Park\nNorthampton\nNN4 0GB"
         },
@@ -4125,7 +4099,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "south.tss@nottscc.gov.uk",
-          website: "http://www.npl.co.uk/thermalconductivity",
+          website: "www.nottinghamshire.gov.uk ",
           phoneNumber: "0 115 99 34800",
           address: "County Hall West Bridgford\nNOTTINGHAM\nNG2 7QP"
         },
@@ -4142,7 +4116,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "thermal_enquiries@npl.co.uk",
-          website: "www.net-cert.co.uk",
+          website: "http://www.npl.co.uk/thermalconductivity ",
           phoneNumber: "0 115 99 34800",
           address: "Hampton Road\nTeddington\nTW11 0LW"
         },
@@ -4159,7 +4133,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "James.collinson@networkrail.co.uk",
-          website: "www.networkrail.co.uk",
+          website: "www.net-cert.co.uk ",
           phoneNumber: "0 1908 784001",
           address: "Network Rail Certification Body Ltd Ground Floor The Quadrant Caldecote Endergate\nMilton\nKeynes MK9M 1EN"
         },
@@ -4176,7 +4150,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "kevin.stannard@networkrail.co.uk",
-          website: "www.aberdeencity.gov.uk",
+          website: "www.networkrail.co.uk",
           phoneNumber: "00 44 1332 262 999",
           address: "Room 221\nDerwent House RTC Business Park London Road\nDerby\nDE24 8UP"
         },
@@ -4193,8 +4167,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "tradingstandards@aberdeencity.gov.uk",
-          website: "",
-          phoneNumber: "44(0) 3000 200 292",
+          website: "www.aberdeencity.gov.uk",
           address: "Aberdeen City Council Business Hub 15 Marischal College\nAberdeen\nAB10 1AB"
         },
       },
@@ -4210,7 +4183,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "gary.foubister@orkney.gov.uk",
-          website: "www.oteac.co.uk",
+          website: " ",
           phoneNumber: "44 1856 873535",
           address: "Kirkwall\nORKNEY\nKW15 1NY"
         },
@@ -4227,7 +4200,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "general@oteac.co.uk",
-          website: "https://www.oxfordshire.gov.uk/cms/public-site/trading-standards",
+          website: "www.oteac.co.uk",
           phoneNumber: "01224 739040",
           address: "Templars House South Deeside Road Maryculter AB12 5GB\nAberdeen"
         },
@@ -4244,7 +4217,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "david.sandy@oxfordshire.gov.uk",
-          website: "www.pbworld.com/ea",
+          website: "https://www.oxfordshire.gov.uk/cms/public-site/trading-standards ",
           phoneNumber: "44(0) 7812953372",
           address: "Oxfordshire County Council Trading Standards Services Graham Hill House Electric Avenue Ferry Hinksey Road\nOxford\nOX2 0BY"
         },
@@ -4261,7 +4234,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "pbqs@pbworld.com",
-          website: "www.PAC.uk.com",
+          website: "www.pbworld.com/ea ",
           phoneNumber: "44:191:226 2222",
           address: "Amber Court\nWilliam Armstrong Drive\nNEWCASTLE\nUPON TYNE, NE4 7YQ"
         },
@@ -4278,7 +4251,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "info@PAC.uk.com",
-          website: "www.patersonsafety",
+          website: "www.PAC.uk.com ",
           phoneNumber: "0 1539 444736",
           address: "P.O. Box 98\nWindermere\n Cumbria LA23 1WF"
         },
@@ -4295,7 +4268,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "tomw@patersonsafety.co.uk",
-          website: "www.ptsinternational.co.uk",
+          website: "www.patersonsafety ",
           phoneNumber: "01236 820700",
           address: "The Green Twechar Kilsyth G65 9QQ\nGlasgow"
         },
@@ -4312,7 +4285,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "vera.sermon@ptsinternational.co.uk",
-          website: "http://www.phillips66.co.uk",
+          website: "www.ptsinternational.co.uk ",
           phoneNumber: "0 1772 792899",
           address: "Britannia House 1 Rough Hey Road Grimsargh\nPreston\nPR2 5AR"
         },
@@ -4329,7 +4302,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "neil.mumby@p66.com",
-          website: "www.railwayapprovals.com",
+          website: "http://www.phillips66.co.uk",
           phoneNumber: "01469 555084",
           address: "Humber Refinery South Killingholme\nGrimsby\nNorth East Lincolnshire DN40 3DW"
         },
@@ -4346,8 +4319,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "Robert.Dale@railwayapprovals.com",
-          website: "",
-          phoneNumber: "01332 483838",
+          website: "www.railwayapprovals.com ",
           address: "Derwent House\nRTC\nLondon Road\nDerby\nDE24 8UP"
         },
       },
@@ -4363,7 +4335,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "",
-          website: "www.rina.org",
+          website: " ",
           phoneNumber: "44/012.24.89.07.07",
           address: "Blackness Avenue - Altens\nAB12\n3PG ABERDEEN"
         },
@@ -4380,8 +4352,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "lewis.northcott@rina.org",
-          website: "",
-          phoneNumber: "0 2380 332271",
+          website: "www.rina.org ",
           address: "North Wing 1st Floor 2 Charlotte Place\nSouthampton\nSO14 0TB"
         },
       },
@@ -4397,7 +4368,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "rcd@rya.org.uk",
-          website: "www.imsworld.org",
+          website: " ",
           phoneNumber: "#REF!:80604201",
           address: "RYA House\nEnsign Way\nHamble\nSO31\n4YA SOUTHAMPTON"
         },
@@ -4414,7 +4385,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "martin@imsworld.org",
-          website: "certification.ricardo.co",
+          website: "www.imsworld.org ",
           phoneNumber: "0 1376 500068",
           address: "Little Braxted Hall Little Braxted Essex CM8 3EU\nLittle\nBraxted"
         },
@@ -4431,7 +4402,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "stephen.clarke3ricardo.com",
-          website: "www.safenet.co.uk",
+          website: "certification.ricardo.com",
           phoneNumber: "0 1904 405870",
           address: "5 St Mary's Court Blossom Street York YO24 1AH\nYork"
         },
@@ -4448,7 +4419,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "office@safenet.co.uk",
-          website: "www.saiglobal.co",
+          website: "www.safenet.co.uk",
           phoneNumber: "0 1832 732 174",
           address: "Denford Garage\nDenford\nKettering\n Northants NN14 4EQ"
         },
@@ -4465,8 +4436,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "product@saiglobal.com",
-          website: "",
-          phoneNumber: "0 1908 249912",
+          website: "www.saiglobal.com",
           address: "Partis House Ground Floor Davy Avenue\nKnowlhill\nMilton\nKeynes MK5 8HJ"
         },
       },
@@ -4482,7 +4452,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "bob_charnely@sandwell.gov.uk",
-          website: "www.satra.co.uk",
+          website: " ",
           phoneNumber: "0121 569 6592",
           address: "Trading Standards and Licensing Unit 33 Coneygree Road Tipton\nWest\nMidlands DY4 8XR"
         },
@@ -4499,7 +4469,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "info@satra.co.uk",
-          website: "www.tradingstandards.gov.uk/scotborder",
+          website: "www.satra.co.uk",
           phoneNumber: "01536 410000",
           address: "SATRA Technology Centre Ltd Wyndham Way Telford Way\nKettering\n Northamptonshire, NN16 8SD"
         },
@@ -4516,7 +4486,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "Iclarkson@scotborders.gov.uk",
-          website: "www.sgs.co.uk/sgsbaseefa",
+          website: "www.tradingstandards.gov.uk/scotborders",
           phoneNumber: "44(0) 1896 823922",
           address: "Newton St. Boswells\nTD6\n0SA MELROSE"
         },
@@ -4533,7 +4503,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "sgsbaseefa@sgs.com",
-          website: "www.sgs.com/correlrail",
+          website: "www.sgs.co.uk/sgsbaseefa ",
           phoneNumber: "0766600",
           address: "Rockhead Business Park Staden Lane\nSK17\n9RZ BUXTON"
         },
@@ -4550,7 +4520,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "chris.llewellyn@sgs.com",
-          website: "www.mistesting.co.uk",
+          website: "www.sgs.com/correlrail ",
           phoneNumber: "0121 326 3684",
           address: "Gee House Holborn Hill\nBirmingham\nB7 5PA"
         },
@@ -4567,8 +4537,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "r.leitch@mistesting.co.uk",
-          website: "",
-          phoneNumber: "0161 873 7662",
+          website: "www.mistesting.co.uk ",
           address: "Unit 2\nKestrel Road\nManchester\n M17 1SF"
         },
       },
@@ -4584,7 +4553,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "sales.manchester@mistesting.co.uk",
-          website: "www.uk.sgs.com",
+          website: " ",
           phoneNumber: "0 1618 737662",
           address: "Unit 2 Western Access Kestrel Road Trafford Park\nManchester\nM17 1SF"
         },
@@ -4601,7 +4570,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "keith.hutchinson@sgs.com",
-          website: "www.sgs.co",
+          website: "www.uk.sgs.com ",
           phoneNumber: "0 191 377 2000",
           address: "South Industrial Estate Bowburn\nCounty\nDurham DH6 5AD"
         },
@@ -4618,7 +4587,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "office@sgs.com",
-          website: "http://www.sgs.co.uk/en-GB/Logistics/Transportation/Rail.asp",
+          website: "www.sgs.com",
           phoneNumber: "0 121 520 6454",
           address: "SGS House\nJohns Lane Tividale\nOldbury\nB69 3HX"
         },
@@ -4635,7 +4604,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "chris.llewellyn@sgs.com",
-          website: "www.uk.sgs.com",
+          website: "http://www.sgs.co.uk/en-GB/Logistics/Transportation/Rail.aspx",
           phoneNumber: "0 121 326 3684",
           address: "Gee House Holborn Hill Birmingham West Midlands B7 5PA UK\nBirmingham"
         },
@@ -4652,7 +4621,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "globalmedical@sgs.com",
-          website: "www.shetland.gov.uk",
+          website: "www.uk.sgs.com ",
           phoneNumber: "01934 522917",
           address: "Unit 202B\nWorle Parkway\nWeston\nsuper-Mare, Somerset, BS22 6WA"
         },
@@ -4669,7 +4638,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "trading.standards@shetland.gov.uk",
-          website: "www.csagroupuk.org",
+          website: "www.shetland.gov.uk",
           phoneNumber: "44(0) 1595 744887",
           address: "Charlotte House Commercial Road Country : United Kingdom\nLerwick\nShetland ZE1 0LX"
         },
@@ -4686,7 +4655,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "UK_NotifiedBody@csagroup.org",
-          website: "www.snclavalin.com",
+          website: "www.csagroupuk.org ",
           phoneNumber: "01244 670900",
           address: "Unit 6 Hawarden Industrial Park\nHawarden\n Deeside CH5 3US"
         },
@@ -4703,8 +4672,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "malcolm.beard@snclavalin.com",
-          website: "",
-          phoneNumber: "01332 223012",
+          website: "www.snclavalin.com ",
           address: "SNC-Lavalin House\n2 Roundhouse Road\nPride Parkway\nDerby\nDE24 8JE"
         },
       },
@@ -4720,7 +4688,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "pthomas@swindon.gov.uk",
-          website: "WWW.STHELENS.GO.UK",
+          website: " ",
           phoneNumber: "44(0) 1208 78772",
           address: "Shire House Mount Folly Square\nBODMIN\nCORNWALL"
         },
@@ -4737,8 +4705,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "COLLETTERAI@STHELENS.GOV.UK",
-          website: "",
-          phoneNumber: "44(0) 1744 456488",
+          website: "WWW.STHELENS.GO.UK ",
           address: "2nd Floor Wesley House - Corporation Str\nWA10\n1HF St. Helens"
         },
       },
@@ -4754,7 +4721,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "",
-          website: "www.hastiegroup.co.uk",
+          website: " ",
           phoneNumber: "",
           address: "Martin Street\nST16\n2LG STAFFORD"
         },
@@ -4771,7 +4738,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "robert.redmond@hastiegroup.co.uk",
-          website: "www.ssani.co.uk",
+          website: "www.hastiegroup.co.uk",
           phoneNumber: "#ERROR!",
           address: "Morfa Road\nHafod\nSwansea\n West Glamorgan"
         },
@@ -4788,7 +4755,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "jr@ssani.co.uk",
-          website: "www.sconrail.com",
+          website: "www.ssani.co.uk",
           phoneNumber: "028 2827 6609",
           address: "Unit 52\nLedcom Industrial Estate Larne Co. Antrim\nNorthern\nIreland"
         },
@@ -4805,7 +4772,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "ziad.mouneimne@sconrail.com",
-          website: "www.bttg.co.uk",
+          website: "www.sconrail.com ",
           phoneNumber: "020 8652 1891",
           address: "Chancery House\nSt Nicholas Way\nSutton\n Surrey SM1 1JB"
         },
@@ -4822,8 +4789,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "onestopshop@bttg.co.uk",
-          website: "",
-          phoneNumber: "0161 876 4211",
+          website: "www.bttg.co.uk ",
           address: "Unit 6\nWheel Forge Way\nTrafford Park\nManchester\nM17 1EH"
         },
       },
@@ -4839,7 +4805,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "info@rapra.net",
-          website: "www.srltsl.com",
+          website: " ",
           phoneNumber: "44.193.925.03.83",
           address: "Shawbury - Shrewsbury\nShropshire\nSY4 4NR"
         },
@@ -4856,8 +4822,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "srl@srltsl.com",
-          website: "",
-          phoneNumber: "2:172:247595",
+          website: "www.srltsl.com ",
           address: "Holbrook House\nLittle Waldingfield\nCO10\n0TH SUFFOLK"
         },
       },
@@ -4873,7 +4838,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "liz@southstaffsindustries.com",
-          website: "www.southdowntesting.co.uk",
+          website: " ",
           phoneNumber: "0121 522 2373",
           address: "Bloomfield Road\nTipton\nWest Midlands"
         },
@@ -4890,7 +4855,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "southdown.smt@btconnect.com",
-          website: "www.southdowntesting.co.uk",
+          website: "www.southdowntesting.co.uk ",
           phoneNumber: "01384482880",
           address: "Unit 5\nTansey Green Road Industrial Estate Tansey Green Road Pensnett Brierley Hill DY5 4TL\nBrierley\nHill"
         },
@@ -4907,7 +4872,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "southdown.smt@btconnect.com",
-          website: "www.steelconstruction.or",
+          website: "www.southdowntesting.co.uk ",
           phoneNumber: "0 1384 482880",
           address: "Unit 5 Tansey Green Road Industrial Estate Tansey Green Road\nPensnett\nBrierley\nHill DY5 4TL"
         },
@@ -4924,7 +4889,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "sccs@steelconstruction.org",
-          website: "www.iti.co.uk",
+          website: "www.steelconstruction.org",
           phoneNumber: "0 20 7747 8134",
           address: "4 Whitehall Court Westminster\nLondon\nSW1A 2ES"
         },
@@ -4941,7 +4906,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "sales@iti.co.uk",
-          website: "www.srs.wale",
+          website: "www.iti.co.uk",
           phoneNumber: "0 1793 783 137",
           address: "56 Shrivenham Hundred\nBusiness Park Shrivenham\nSwindon\nWiltshire SN6 8TY"
         },
@@ -4958,7 +4923,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "jonwood@valeofglamorgan.gov.uk",
-          website: "www.qsrmc.co.uk",
+          website: "www.srs.wales",
           phoneNumber: "44(0) 29 2087 2069",
           address: "County Hall\nAtlantic Wharf\nCARDIFF\nCF10 4UW"
         },
@@ -4975,8 +4940,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "Colin.Head@qsrmc.co.uk",
-          website: "",
-          phoneNumber: "020 8941 0273",
+          website: "www.qsrmc.co.uk",
           address: "1 Mount Mews\nHigh Street\nHampton\nMiddlesex TW12 2SH"
         },
       },
@@ -4992,7 +4956,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "enquiries@vca.gov.uk",
-          website: "www.tradatechnology.co.uk",
+          website: " ",
           phoneNumber: "020 8941 0273",
           address: "1 The Eastgate Office Centre\nBS5\n6XX BRISTOL"
         },
@@ -5009,7 +4973,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "hmansfield-williams@trada.co.uk",
-          website: "www.tuv.com/en/uk/services_uk/vehicles_traffic_uk/railway_technology_uk/railway_technology.htm",
+          website: "www.tradatechnology.co.uk",
           phoneNumber: "01494 569600",
           address: "Chiltern House\nStocking Lane\nHughenden Valley\nHigh\nWycombe HP14 4ND"
         },
@@ -5026,7 +4990,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "rail@uk.tuv.com",
-          website: "www.tuv-sud.co.uk/babt",
+          website: "www.tuv.com/en/uk/services_uk/vehicles_traffic_uk/railway_technology_uk/railway_technology.html",
           phoneNumber: "44 121 796 9420",
           address: "One Cranmore Drive Solihull\nB90 4RZ\nSolihull"
         },
@@ -5043,7 +5007,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "BABT@TUV-SUD.co.uk",
-          website: "www.cswip.co",
+          website: "www.tuv-sud.co.uk/babt ",
           phoneNumber: "0 1932 251 200",
           address: "Octagon House Concorde Way\nSegensworth\nNorth Fareham PO15 5RL"
         },
@@ -5060,7 +5024,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "twicertification@twi.co.uk",
-          website: "www.powys.gov.uk",
+          website: "www.cswip.com",
           phoneNumber: "0 1223 899000",
           address: "Granta Park Great Abington\nCAMBRIDGE\nCB21 6AL"
         },
@@ -5077,7 +5041,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "jacqui.thomas@powys.gov.uk",
-          website: "www.tycofis.co.uk",
+          website: "www.powys.gov.uk ",
           phoneNumber: "44(0) 1686 617524",
           address: "Trading Standards The Park\nNewtown\nSY16 2NZ"
         },
@@ -5094,7 +5058,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "wparr@tycoint.com",
-          website: "http://www.tuv-nord.co.uk",
+          website: "www.tycofis.co.uk",
           phoneNumber: "01224 293500",
           address: "Ocean Trade Centre\nMinto Avenue\nAltns Industrial Estate\nAberdeen"
         },
@@ -5111,7 +5075,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "enquiries.uk@tuv-nord.co.uk",
-          website: "www.ukcares.co",
+          website: "http://www.tuv-nord.co.uk",
           phoneNumber: "020 8680 7711",
           address: "AMP House Suites 27-29 Fifth Floor Dingwall Road\nCroydon\nCR0 2LX"
         },
@@ -5128,7 +5092,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "general@ukcares.com",
-          website: "www.ukcares.co",
+          website: "www.ukcares.com",
           phoneNumber: "01732 450000",
           address: "Pembroke House\n21 Pembroke Road\nSevenoaks\n Kent TN13 1XR"
         },
@@ -5145,7 +5109,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "general@ukcares.com",
-          website: "http://www.ul-europe.com",
+          website: "www.ukcares.com",
           phoneNumber: "2:117:450000",
           address: "Pembroke House\n21 Pembroke Road\nSevenoaks\n Kent TN13 1XR"
         },
@@ -5162,8 +5126,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "Inform.NB@uk.ul.com",
-          website: "",
-          phoneNumber: "44 1483 302130",
+          website: "http://www.ul-europe.com ",
           address: "Wonersh House Building C The Guildway Old Portsmouth Road\nGuildford\nGU3 1LR"
         },
       },
@@ -5179,7 +5142,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "Inform.NB@uk.ul.com",
-          website: "www.ul-europe.co",
+          website: " ",
           phoneNumber: "0 1483 302130",
           address: "Wonersh House Building C The guildway Old Portsmouth Road\nGuildford\nGU3 1LR"
         },
@@ -5196,7 +5159,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "info.uk@uk.ul.com",
-          website: "www.ul.com",
+          website: "www.ul-europe.com",
           phoneNumber: "0 148 330 2130",
           address: "Wonersh House\nThe Guildway\nOld Portsmouth Road\nGuildford\n Surrey. GU3 1LR"
         },
@@ -5213,7 +5176,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "certification@ul.com",
-          website: "STRQuality.com",
+          website: "www.ul.com ",
           phoneNumber: "0 1256 312000",
           address: "Offices 18-26\nGrove House\nLutyens Close\nChineham Court\nBASINGSTOKE\nRG24 8AG"
         },
@@ -5314,8 +5277,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "Keith.Richards@ul.com",
-          website: "",
-          phoneNumber: "0118 939 8700",
+          website: "STRQuality.com ",
           address: "10 Portman Road\nUK\nRG30 1EA Reading, Berkshire"
         },
       },
@@ -5331,7 +5293,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "",
-          website: "http://www.uswcommercial.co.uk",
+          website: " ",
           phoneNumber: "44/1934.74.44.56",
           address: "Mediaevel House - The Square - Axbridge\nBS26\n2AR SOMERSET"
         },
@@ -5348,7 +5310,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "John.kinuthia@southwales.ac.uk",
-          website: "www.urs-certifcation.co.uk",
+          website: "http://www.uswcommercial.co.uk/",
           phoneNumber: "0 1443 482 148",
           address: "University of South Wales 3 Llantwit Road Trefforest\nCF37\n1DL PONTYPRIDD"
         },
@@ -5365,7 +5327,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "info@urs-certifcation.co.uk",
-          website: "www.thermal-testing.salford.ac.uk",
+          website: "www.urs-certifcation.co.uk ",
           phoneNumber: "44(0) 1202 552 153",
           address: "Derby Manor\nDerby Road\nBH1 3QB\nBournemouth"
         },
@@ -5382,7 +5344,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "A.Simpson@salford.ac.uk",
-          website: "www.technology-centre.co.uk",
+          website: "www.thermal-testing.salford.ac.uk",
           phoneNumber: "44(0) 161 295 5172/3114",
           address: "Thermal Measurement Laboratory\nSchool of CSE\nNewton Building\nSalford\nM5 4WT"
         },
@@ -5399,7 +5361,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "steve.shanahan@technology-centre.co.uk",
-          website: "www.valero.com",
+          website: "www.technology-centre.co.uk",
           phoneNumber: "0 1525 859050 / +0 7816 514549",
           address: "Stanbridge Road\nLeighton\nBuzzard Bedfordshire LU7 4QH"
         },
@@ -5416,7 +5378,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "clive.brown@valero.com",
-          website: "www.valero.com",
+          website: "www.valero.com ",
           phoneNumber: "0 1646 649737",
           address: "Pembroke Refinery\nPembroke"
         },
@@ -5433,7 +5395,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "clive.brown@valero.com",
-          website: "www.wandsworth.gov.uk",
+          website: "www.valero.com ",
           phoneNumber: "44(0) 1646 649737",
           address: "Pembroke Refinery Pembroke SA71 5SJ\nPembroke"
         },
@@ -5450,8 +5412,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "pbrowne@wandsworth.gov.uk",
-          website: "",
-          phoneNumber: "0 20 8871 7735",
+          website: "www.wandsworth.gov.uk",
           address: "Trading Standards Administration Department The Town Hall Wandsworth High Street\nLondon\nSW18 2PU"
         },
       },
@@ -5551,7 +5512,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "",
-          website: "www.wintechtesting.com",
+          website: " ",
           phoneNumber: "0 20 8871 7735",
           address: "Old Budbrooke Road\nCV35\n7DP WARWICK"
         },
@@ -5568,7 +5529,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "testing@wintechtesting.com",
-          website: "www.wq-ic.co.uk",
+          website: "www.wintechtesting.com ",
           phoneNumber: "44:1952:586 580",
           address: "Halesfield 2\nTELFORD\n SHROPSHIRE TF7 4QH"
         },
@@ -5585,7 +5546,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "admin@wq-ic.co.uk",
-          website: "www.warringtonfire.net",
+          website: "www.wq-ic.co.uk",
           phoneNumber: "0121 5052066",
           address: "Jack Brookes Yard\nLongmore Street\nWednesbury\nWest Midlands\nWS10 9DQ\nWednesbury\n West Midlands"
         },
@@ -5602,7 +5563,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "Geoff.Deakin@exova.com",
-          website: "www.exovabmtrada.com",
+          website: "www.warringtonfire.net ",
           phoneNumber: "0 1925 655116",
           address: "Holmesfield Road\nWA1\n2DS WARRINGTON"
         },
@@ -5619,7 +5580,7 @@ module.exports = {
         authorisedBy: ["BEIS", "MHCLG"],
         contact: {
           email: "certification@exova.com",
-          website: "www.warringtonfire.net",
+          website: "www.exovabmtrada.com ",
           phoneNumber: "0 1494 569 700",
           address: "Chiltern House\nStocking Lane\nHughenden Valley\nHigh\nWycombe, Buckinghamshire HP14 4ND"
         }
@@ -5628,3 +5589,221 @@ module.exports = {
     }
   ]
 }
+
+"www.4wardtesting.co.uk "
+"http://www.aberdeenshire.gov.uk/business/trading-standards/"
+"www.eagle.org"
+"www.aegisengineering.co.uk "
+"www.airproducts.co.uk"
+"www.intertek.com "
+"www.amtriveritas.com "
+"www.angus.gov.uk "
+"http://www.arrowheadltd.com"
+"www.atkinsglobal.com "
+"www.avtechnology.co.uk "
+" "
+"www.ascertiva.com"
+"www.mastergasonline.com"
+"www.blackwood-labs.co.uk "
+"www.boc.com"
+"www.breglobal.co.uk"
+"www.breglobal.com"
+"www.bbacerts.co.uk "
+"www.britishengineeringservices.co.uk "
+"http://www.biegroup.com"
+"www.bindt.org"
+"www.bsigroup.com "
+"www.bsria.co.uk"
+"www.bttg.co.uk "
+"http://www.bureauveritas.co.uk/wps/wcm/connect/bv_couk/Local/Home/Our-Services/Certification/"
+"www.bureauveritas.com/cps"
+"www.bureauveritas.co.uk"
+" "
+" "
+"www.basec.org.uk "
+"www.bbacerts.co.uk "
+"www.buildcheck.co.uk "
+"http://www.building-testing.co.uk"
+" "
+"www.ccqs.co.uk "
+"http://www.cem-international.co.uk "
+"www.catg.co.uk "
+"www.cesaglobal.com "
+"www.cheshirewestandchester.gov.uk"
+"www.codeaweld.com"
+" "
+"www.blueskycert.com"
+"www.calor.co.uk"
+"www.calorgas.ie"
+"www.cambridge-fire.co.uk "
+" "
+"www.centreforassessment.co.uk/ "
+"info@cmlex.com "
+"www.certifiedconformity.co.uk"
+"www.codeaweld.com"
+"www.csts.co.uk "
+"www.cranage.co.uk"
+"www.ctsukltd.com "
+" "
+"www.deltarail.com"
+"www.derbyshire.gov.uk"
+"www.dnvgl.com"
+" "
+" "
+"www.dtgtesting.com "
+" "
+" "
+" "
+"www.economy-ni.gov.uk"
+"www.dominion-gas.com "
+"www.norfolk.gov.uk/calibration "
+" "
+"www.exova.com"
+"www.element.com"
+"http://www.exova.com "
+"www.energas.co.uk"
+"www.essar.com"
+"www.essar.com"
+"www.Product-Testing.eurofins.com "
+"www.eqa.co.uk"
+"http://www.exveritas.com "
+"www.exovabmtrada.com "
+"www.fifedirect.org.uk/tradingstandards "
+"www.blackpool.ac.uk/fosc "
+"www.fmapprovals.com"
+"www.fmapprovals.com"
+"www.flameskill.co.uk "
+"www.flogas.co.uk "
+" "
+"www.gl-group.com/certserv"
+" "
+"www.gascylindersuk.co.uk "
+"www.glass-ts.com "
+"www.globalgroup.net"
+" "
+"www.hants.gov.uk/tradingstandards"
+"www.hsl.gov.uk "
+"www.highland.gov.uk"
+"www.eucertification.com"
+"www.hpivs.com"
+"www.hsb.com"
+"www.HSBGlobalStandards.com "
+"http://www.horiba-mira.com "
+"www.hursley-emc.co.uk"
+" "
+"www.ifccertification.com "
+"www.ifccertification.com "
+"www.inspec-international.com "
+" "
+"www.intertek.com "
+"www.isoqar.com "
+"www.intertek.com "
+"www.impact-solutions.co.uk "
+"www.incon.co.uk"
+"http://www.intersciencecomms.co.uk/"
+"www.jrgases.co.uk"
+" "
+"www.jesp.co.uk "
+"www.kent.gov.uk/tradingstandards "
+"www.kiwa.co.uk "
+"www.laidler.co.uk"
+"www.lancashire.gov.uk"
+"www.leics.gov.uk "
+"www.liftcert.co.uk "
+"www.lrqa.com "
+" "
+" "
+"www.lr.org "
+"www.lucideon.com "
+"www.lucideon.com "
+" "
+"www.melaviation.co.uk"
+" "
+"http://www.mottmac.com "
+"www.railways.mottmac.com "
+"www.meridiantechnicalservices.com"
+" "
+"www.mts-uk.co.uk "
+" "
+" "
+"https://www.gov.uk/government/organisations/office-for-product-safety-and-standards"
+"www.northamptonshire.gov.uk"
+"www.nottinghamshire.gov.uk "
+"http://www.npl.co.uk/thermalconductivity "
+"www.net-cert.co.uk "
+"www.networkrail.co.uk"
+"www.aberdeencity.gov.uk"
+" "
+"www.oteac.co.uk"
+"https://www.oxfordshire.gov.uk/cms/public-site/trading-standards "
+"www.pbworld.com/ea "
+"www.PAC.uk.com "
+"www.patersonsafety "
+"www.ptsinternational.co.uk "
+"http://www.phillips66.co.uk"
+"www.railwayapprovals.com "
+" "
+"www.rina.org "
+" "
+"www.imsworld.org "
+"certification.ricardo.com"
+"www.safenet.co.uk"
+"www.saiglobal.com"
+" "
+"www.satra.co.uk"
+"www.tradingstandards.gov.uk/scotborders"
+"www.sgs.co.uk/sgsbaseefa "
+"www.sgs.com/correlrail "
+"www.mistesting.co.uk "
+" "
+"www.uk.sgs.com "
+"www.sgs.com"
+"http://www.sgs.co.uk/en-GB/Logistics/Transportation/Rail.aspx"
+"www.uk.sgs.com "
+"www.shetland.gov.uk"
+"www.csagroupuk.org "
+"www.snclavalin.com "
+" "
+"WWW.STHELENS.GO.UK "
+" "
+"www.hastiegroup.co.uk"
+"www.ssani.co.uk"
+"www.sconrail.com "
+"www.bttg.co.uk "
+" "
+"www.srltsl.com "
+" "
+"www.southdowntesting.co.uk "
+"www.southdowntesting.co.uk "
+"www.steelconstruction.org"
+"www.iti.co.uk"
+"www.srs.wales"
+"www.qsrmc.co.uk"
+" "
+"www.tradatechnology.co.uk"
+"www.tuv.com/en/uk/services_uk/vehicles_traffic_uk/railway_technology_uk/railway_technology.html"
+"www.tuv-sud.co.uk/babt "
+"www.cswip.com"
+"www.powys.gov.uk "
+"www.tycofis.co.uk"
+"http://www.tuv-nord.co.uk"
+"www.ukcares.com"
+"www.ukcares.com"
+"http://www.ul-europe.com "
+" "
+"www.ul-europe.com"
+"www.ul.com "
+"STRQuality.com "
+" "
+"http://www.uswcommercial.co.uk/"
+"www.urs-certifcation.co.uk "
+"www.thermal-testing.salford.ac.uk"
+"www.technology-centre.co.uk"
+"www.valero.com "
+"www.valero.com "
+"www.wandsworth.gov.uk"
+" "
+"www.wintechtesting.com "
+"www.wq-ic.co.uk"
+"www.warringtonfire.net "
+"www.exovabmtrada.com "
