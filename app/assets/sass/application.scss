@@ -15,20 +15,23 @@ $govuk-global-styles: true;
 
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
 
-dl, dt, dd  {
+
+dl {
+  // background-color: red;
   display: inline-block;
-  margin: 0px !important;
-  line-height: 0px;
+  width: 100%;
+  dt {
+    // background-color: green;
+    float: left;
+    width: 40%;
+  }
+  dd {
+    // background-color: yellow;
+    float: left;
+    width: 60%;
+    margin-left: 0px;
+  }
 }
-
-dt {
-  min-width: 120px;
-}
-
-dd {
-  min-width: 200px;
-}
-
 
 .no-break {
   white-space: nowrap;
@@ -81,3 +84,4 @@ a {
     }
   }
 }
+

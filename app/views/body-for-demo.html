@@ -22,7 +22,7 @@
   <div class="govuk-grid-row">
     <div class="govuk-grid-column-two-thirds">
       <h1 class="govuk-heading-xl">
-        {{doc.body.name}}
+        Ricardo Certification Ltd
       </h1>
       <dl class='govuk-body-s'>
         <dt class=''>Last updated:</dt>
@@ -43,7 +43,7 @@
           Approved body number:
         </dt>
         <dd class=''>
-          UKAB–{{doc.body.number}}
+          UKAB–9208
         </dd>
         <dt class=''>
           Type of organisation:
@@ -70,7 +70,11 @@
         </dt>
         <dd class=''>
           UK<br>
-          China
+          China<br>
+          Dennmark<br>
+          Netherlands<br>
+          Qatar<br>
+          UAE
         </dd>
       </dl>
 
@@ -96,8 +100,11 @@
       </h2>
       {% for acc in doc.accs %}
         <h2 class='govuk-heading-m'>
-          {{acc.name}}
+          Command and control signalling
         </h2>
+        <p>
+          EU Regulation No. 402/2013
+        </p>
         <table class='govuk-body-m legislation'>
           <thead>
             <tr>
@@ -105,10 +112,7 @@
                 Products
               </th>
               <th>
-                Procedures
-              </th>
-              <th>
-                Annexes
+                Methods and procedures
               </th>
               <th>
                 Limitations
